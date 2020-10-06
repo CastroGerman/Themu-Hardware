@@ -1,0 +1,468 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title "Power"
+Date "2020-09-24"
+Rev "02"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:AP2112K-3.3 U2
+U 1 1 5F5D210A
+P 2600 2100
+F 0 "U2" H 2600 2442 50  0000 C CNN
+F 1 "AP2112K-3.3" H 2600 2351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2600 2425 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 2600 2200 50  0001 C CNN
+F 4 "AP2112K-3.3TRG1DICT-ND" H 2600 2100 50  0001 C CNN "*Digikey"
+	1    2600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 5F5D73BC
+P 2000 2100
+F 0 "R7" V 1900 2150 50  0000 C CNN
+F 1 "100K" V 1800 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2000 2100 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 2000 2100 50  0001 C CNN
+F 4 "CR0603-FX-1003ELF" H 2000 2100 50  0001 C CNN "*Digikey"
+	1    2000 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 5F5D82F4
+P 950 2100
+F 0 "R6" H 1018 2146 50  0000 L CNN
+F 1 "100K" H 1018 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 950 2100 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 950 2100 50  0001 C CNN
+F 4 "CR0603-FX-1003ELF" H 950 2100 50  0001 C CNN "*Digikey"
+	1    950  2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:MBR340 D2
+U 1 1 5F5DD9D5
+P 1250 2000
+F 0 "D2" H 1250 1783 50  0000 C CNN
+F 1 "MBR120" H 1250 1874 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 1250 1825 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 1250 2000 50  0001 C CNN
+F 4 "MBR120VLSFT3GOSTR-ND" H 1250 2000 50  0001 C CNN "*Digikey"
+	1    1250 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:DMG2301L Q3
+U 1 1 5F5E01DD
+P 1600 1500
+F 0 "Q3" H 1804 1546 50  0000 L CNN
+F 1 "DMP2045U" H 1804 1455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1800 1425 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP2045U.pdf" H 1600 1500 50  0001 L CNN
+F 4 "DMP2045U-7DICT-ND" H 1600 1500 50  0001 C CNN "*Digikey"
+	1    1600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5F5E1B2F
+P 1650 2350
+F 0 "C2" H 1742 2396 50  0000 L CNN
+F 1 "10uF 25V X7R" H 1742 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1650 2350 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1650 2350 50  0001 C CNN
+F 4 "12103C106KAT2A" H 1650 2350 50  0001 C CNN "*Digikey"
+	1    1650 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2000 2100 2000
+Wire Wire Line
+	1650 2250 1650 2000
+Connection ~ 1650 2000
+Wire Wire Line
+	1650 2000 1400 2000
+Wire Wire Line
+	1900 2000 1900 2100
+Connection ~ 1900 2000
+Wire Wire Line
+	1900 2000 1700 2000
+Wire Wire Line
+	2100 2100 2300 2100
+Wire Wire Line
+	1100 2000 950  2000
+Wire Wire Line
+	1400 1500 950  1500
+Wire Wire Line
+	950  1500 950  2000
+Connection ~ 950  2000
+Wire Wire Line
+	1700 1700 1700 2000
+Connection ~ 1700 2000
+Wire Wire Line
+	1700 2000 1650 2000
+$Comp
+L power:GND #PWR018
+U 1 1 5F5E3B26
+P 1650 2500
+F 0 "#PWR018" H 1650 2250 50  0001 C CNN
+F 1 "GND" H 1655 2327 50  0000 C CNN
+F 2 "" H 1650 2500 50  0001 C CNN
+F 3 "" H 1650 2500 50  0001 C CNN
+	1    1650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR016
+U 1 1 5F5E4B32
+P 950 1150
+F 0 "#PWR016" H 950 1000 50  0001 C CNN
+F 1 "VBUS" H 965 1323 50  0000 C CNN
+F 2 "" H 950 1150 50  0001 C CNN
+F 3 "" H 950 1150 50  0001 C CNN
+	1    950  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR019
+U 1 1 5F5E597E
+P 1700 1150
+F 0 "#PWR019" H 1700 1000 50  0001 C CNN
+F 1 "+BATT" H 1715 1323 50  0000 C CNN
+F 2 "" H 1700 1150 50  0001 C CNN
+F 3 "" H 1700 1150 50  0001 C CNN
+	1    1700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5F5E69F8
+P 950 2500
+F 0 "#PWR017" H 950 2250 50  0001 C CNN
+F 1 "GND" H 955 2327 50  0000 C CNN
+F 2 "" H 950 2500 50  0001 C CNN
+F 3 "" H 950 2500 50  0001 C CNN
+	1    950  2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5F5E74CA
+P 2600 2500
+F 0 "#PWR020" H 2600 2250 50  0001 C CNN
+F 1 "GND" H 2605 2327 50  0000 C CNN
+F 2 "" H 2600 2500 50  0001 C CNN
+F 3 "" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5F5E75DD
+P 3100 2250
+F 0 "C3" H 3192 2296 50  0000 L CNN
+F 1 "10uF 25V X7R" H 3192 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3100 2250 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3100 2250 50  0001 C CNN
+F 4 "12103C106KAT2A" H 3100 2250 50  0001 C CNN "*Digikey"
+	1    3100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5F5E8856
+P 3650 2250
+F 0 "C4" H 3742 2296 50  0000 L CNN
+F 1 "1uF 25V X5R" H 3742 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3650 2250 50  0001 C CNN
+F 3 "http://datasheets.avx.com/cx5r.pdf" H 3650 2250 50  0001 C CNN
+F 4 "06033D105KAT2A" H 3650 2250 50  0001 C CNN "*Digikey"
+	1    3650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5F5E8D91
+P 3100 2500
+F 0 "#PWR021" H 3100 2250 50  0001 C CNN
+F 1 "GND" H 3105 2327 50  0000 C CNN
+F 2 "" H 3100 2500 50  0001 C CNN
+F 3 "" H 3100 2500 50  0001 C CNN
+	1    3100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5F5E8FAE
+P 3650 2500
+F 0 "#PWR023" H 3650 2250 50  0001 C CNN
+F 1 "GND" H 3655 2327 50  0000 C CNN
+F 2 "" H 3650 2500 50  0001 C CNN
+F 3 "" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR022
+U 1 1 5F5E9117
+P 3650 1200
+F 0 "#PWR022" H 3650 1050 50  0001 C CNN
+F 1 "+3V3" H 3665 1373 50  0000 C CNN
+F 2 "" H 3650 1200 50  0001 C CNN
+F 3 "" H 3650 1200 50  0001 C CNN
+	1    3650 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2000 3100 2000
+Wire Wire Line
+	3650 2000 3650 2150
+Wire Wire Line
+	3100 2000 3100 2150
+Wire Wire Line
+	3100 2350 3100 2500
+Connection ~ 3100 2000
+Wire Wire Line
+	3100 2000 3650 2000
+Wire Wire Line
+	3650 2350 3650 2500
+Wire Wire Line
+	3650 2000 3650 1200
+Connection ~ 3650 2000
+Wire Wire Line
+	2600 2400 2600 2500
+Wire Wire Line
+	1650 2450 1650 2500
+Wire Wire Line
+	950  2200 950  2500
+Wire Wire Line
+	950  1150 950  1500
+Connection ~ 950  1500
+Wire Wire Line
+	1700 1150 1700 1300
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5F5ECCBD
+P 4500 1850
+F 0 "J2" H 4580 1842 50  0000 L CNN
+F 1 "Conn_01x02" H 4580 1751 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 4500 1850 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4500 1850 50  0001 C CNN
+F 4 "S2B-PH-K-S(LF)(SN)" H 4750 1600 50  0000 C CNN "*Digikey"
+	1    4500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR024
+U 1 1 5F5EF499
+P 4300 1500
+F 0 "#PWR024" H 4300 1350 50  0001 C CNN
+F 1 "+BATT" H 4315 1673 50  0000 C CNN
+F 2 "" H 4300 1500 50  0001 C CNN
+F 3 "" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5F5EFBEC
+P 4300 2350
+F 0 "#PWR025" H 4300 2100 50  0001 C CNN
+F 1 "GND" H 4305 2177 50  0000 C CNN
+F 2 "" H 4300 2350 50  0001 C CNN
+F 3 "" H 4300 2350 50  0001 C CNN
+	1    4300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1500 4300 1850
+Wire Wire Line
+	4300 1950 4300 2350
+$Comp
+L Battery_Management:MCP73831-2-OT U4
+U 1 1 5F5F1703
+P 6100 1950
+F 0 "U4" H 6100 2431 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 6100 2340 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6150 1700 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 5950 1900 50  0001 C CNN
+F 4 "MCP73831T-2ACI/OTCT-ND" H 6100 1950 50  0001 C CNN "*Digikey"
+	1    6100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R9
+U 1 1 5F5F379D
+P 6700 1550
+F 0 "R9" H 6800 1600 50  0000 C CNN
+F 1 "1K" H 6800 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 1550 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6700 1550 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 6700 1550 50  0001 C CNN "*Digikey"
+	1    6700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D3
+U 1 1 5F5F5CC9
+P 6700 1250
+F 0 "D3" V 6800 1100 50  0000 C CNN
+F 1 "RED LED" V 6700 900 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6700 1250 50  0001 C CNN
+F 3 "https://www.aopled.com/AOP_PDFs/L196L-UEC.pdf" V 6700 1250 50  0001 C CNN
+F 4 "L196L-UEC" H 6700 1250 50  0001 C CNN "*Digikey"
+	1    6700 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VBUS #PWR027
+U 1 1 5F5FC6D9
+P 6700 1100
+F 0 "#PWR027" H 6700 950 50  0001 C CNN
+F 1 "VBUS" H 6715 1273 50  0000 C CNN
+F 2 "" H 6700 1100 50  0001 C CNN
+F 3 "" H 6700 1100 50  0001 C CNN
+	1    6700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2050 6500 2050
+$Comp
+L Device:R_Small_US R8
+U 1 1 5F5FD9AD
+P 5500 2200
+F 0 "R8" H 5432 2154 50  0000 R CNN
+F 1 "4.7K" H 5432 2245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5500 2200 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5500 2200 50  0001 C CNN
+F 4 "CR0603-FX-4701ELF" H 5500 2200 50  0001 C CNN "*Digikey"
+	1    5500 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5F5FF071
+P 6100 2400
+F 0 "#PWR026" H 6100 2150 50  0001 C CNN
+F 1 "GND" H 6105 2227 50  0000 C CNN
+F 2 "" H 6100 2400 50  0001 C CNN
+F 3 "" H 6100 2400 50  0001 C CNN
+	1    6100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5F5FFAAE
+P 6900 2250
+F 0 "C8" H 6992 2296 50  0000 L CNN
+F 1 "10uF 25V X7R" H 6992 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 6900 2250 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6900 2250 50  0001 C CNN
+F 4 "12103C106KAT2A" H 6900 2250 50  0001 C CNN "*Digikey"
+	1    6900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5F6012DA
+P 6900 2350
+F 0 "#PWR029" H 6900 2100 50  0001 C CNN
+F 1 "GND" H 6905 2177 50  0000 C CNN
+F 2 "" H 6900 2350 50  0001 C CNN
+F 3 "" H 6900 2350 50  0001 C CNN
+	1    6900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2050 5500 2050
+Wire Wire Line
+	5500 2050 5500 2100
+Wire Wire Line
+	6100 2250 6100 2350
+Wire Wire Line
+	5500 2300 5500 2350
+Wire Wire Line
+	5500 2350 6100 2350
+Connection ~ 6100 2350
+Wire Wire Line
+	6100 2350 6100 2400
+Text Notes 7250 1450 0    50   ~ 0
+10K = 100mA
+Text Notes 7250 1700 0    50   ~ 0
+5K = 200mA\n2K = 500mA\n1K = 1000mA\n
+Wire Wire Line
+	6700 2050 6700 1650
+Wire Wire Line
+	6700 1450 6700 1350
+Wire Wire Line
+	6700 1150 6700 1100
+Wire Wire Line
+	6100 1150 6700 1150
+Wire Wire Line
+	6100 1150 6100 1650
+Connection ~ 6700 1150
+$Comp
+L power:+BATT #PWR028
+U 1 1 5F6A9BEF
+P 6900 2050
+F 0 "#PWR028" H 6900 1900 50  0001 C CNN
+F 1 "+BATT" H 6915 2223 50  0000 C CNN
+F 2 "" H 6900 2050 50  0001 C CNN
+F 3 "" H 6900 2050 50  0001 C CNN
+	1    6900 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1850 6600 1850
+Wire Wire Line
+	6600 1850 6600 2150
+Wire Wire Line
+	6600 2150 6900 2150
+Wire Wire Line
+	6900 2050 6900 2150
+Connection ~ 6900 2150
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F73E5D7
+P 2100 2000
+F 0 "#FLG0101" H 2100 2075 50  0001 C CNN
+F 1 "PWR_FLAG" H 2100 2173 50  0000 C CNN
+F 2 "" H 2100 2000 50  0001 C CNN
+F 3 "~" H 2100 2000 50  0001 C CNN
+	1    2100 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 2000
+Wire Wire Line
+	2100 2000 1900 2000
+Wire Notes Line
+	750  800  750  2900
+Wire Notes Line
+	5200 2900 5200 800 
+Wire Notes Line
+	7850 800  7850 2650
+Wire Notes Line
+	7850 2650 5300 2650
+Wire Notes Line
+	5300 2650 5300 800 
+Wire Notes Line
+	5300 800  7850 800 
+Text Notes 6200 750  0    50   ~ 0
+LiPo Charging
+Text Notes 2500 750  0    50   ~ 0
+Power and Filtering\n
+Wire Notes Line
+	750  800  5200 800 
+Wire Notes Line
+	750  2900 5200 2900
+$EndSCHEMATC
