@@ -30,9 +30,6 @@ F 3 "" H 2800 4350 50  0001 C CNN
 	1    2800 4350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3400 3650
-NoConn ~ 3400 3550
-NoConn ~ 3400 3450
 NoConn ~ 3400 3350
 NoConn ~ 3400 3250
 NoConn ~ 3400 3150
@@ -436,84 +433,70 @@ Wire Wire Line
 Text Label 3850 4050 2    50   ~ 0
 ADC1_CH7
 Wire Wire Line
-	1050 3800 1500 3800
+	1100 2550 1550 2550
 Wire Wire Line
-	1050 3700 1050 3800
+	1100 2450 1100 2550
 $Comp
 L power:GND #PWR?
 U 1 1 5F674CFE
-P 1050 4100
+P 1100 2850
 AR Path="/5F674CFE" Ref="#PWR?"  Part="1" 
 AR Path="/5F4501E0/5F674CFE" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 1050 3850 50  0001 C CNN
-F 1 "GND" H 1055 3927 50  0000 C CNN
-F 2 "" H 1050 4100 50  0001 C CNN
-F 3 "" H 1050 4100 50  0001 C CNN
-	1    1050 4100
+F 0 "#PWR07" H 1100 2600 50  0001 C CNN
+F 1 "GND" H 1105 2677 50  0000 C CNN
+F 2 "" H 1100 2850 50  0001 C CNN
+F 3 "" H 1100 2850 50  0001 C CNN
+	1    1100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 5F674D0A
-P 1050 3600
+P 1100 2350
 AR Path="/5F674D0A" Ref="R?"  Part="1" 
 AR Path="/5F4501E0/5F674D0A" Ref="R4"  Part="1" 
-F 0 "R4" H 1118 3646 50  0000 L CNN
-F 1 "100K" H 1118 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 3600 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1050 3600 50  0001 C CNN
-F 4 "CR0603-FX-1003ELF" H 1050 3600 50  0001 C CNN "*Digikey"
-	1    1050 3600
+F 0 "R4" H 1168 2396 50  0000 L CNN
+F 1 "100K" H 1168 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 2350 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1100 2350 50  0001 C CNN
+F 4 "CR0603-FX-1003ELF" H 1100 2350 50  0001 C CNN "*Digikey"
+	1    1100 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 5F677550
-P 1050 3950
+P 1100 2700
 AR Path="/5F677550" Ref="R?"  Part="1" 
 AR Path="/5F4501E0/5F677550" Ref="R5"  Part="1" 
-F 0 "R5" H 1118 3996 50  0000 L CNN
-F 1 "100K" H 1118 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 3950 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1050 3950 50  0001 C CNN
-F 4 "CR0603-FX-1003ELF" H 1050 3950 50  0001 C CNN "*Digikey"
-	1    1050 3950
+F 0 "R5" H 1168 2746 50  0000 L CNN
+F 1 "100K" H 1168 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 2700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1100 2700 50  0001 C CNN
+F 4 "CR0603-FX-1003ELF" H 1100 2700 50  0001 C CNN "*Digikey"
+	1    1100 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 3800 1050 3850
+	1100 2550 1100 2600
 Wire Wire Line
-	1050 4050 1050 4100
-Connection ~ 1050 3800
+	1100 2800 1100 2850
+Connection ~ 1100 2550
 $Comp
 L power:+BATT #PWR06
 U 1 1 5F67B0FC
-P 1050 3500
-F 0 "#PWR06" H 1050 3350 50  0001 C CNN
-F 1 "+BATT" H 1065 3673 50  0000 C CNN
-F 2 "" H 1050 3500 50  0001 C CNN
-F 3 "" H 1050 3500 50  0001 C CNN
-	1    1050 3500
+P 1100 2250
+F 0 "#PWR06" H 1100 2100 50  0001 C CNN
+F 1 "+BATT" H 1115 2423 50  0000 C CNN
+F 2 "" H 1100 2250 50  0001 C CNN
+F 3 "" H 1100 2250 50  0001 C CNN
+	1    1100 2250
 	1    0    0    -1  
 $EndComp
 Text Label 1550 1500 2    50   ~ 0
 EN
 Wire Wire Line
 	2200 1750 2100 1750
-$Comp
-L Device:LED_Small_ALT D?
-U 1 1 5F6888D7
-P 1050 2850
-AR Path="/5F6888D7" Ref="D?"  Part="1" 
-AR Path="/5F4501E0/5F6888D7" Ref="D1"  Part="1" 
-F 0 "D1" V 1096 2780 50  0000 R CNN
-F 1 "RED LED" V 1005 2780 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1050 2850 50  0001 C CNN
-F 3 "https://www.aopled.com/AOP_PDFs/L196L-UEC.pdf" V 1050 2850 50  0001 C CNN
-F 4 "L196L-UEC" H 1050 2850 50  0001 C CNN "*Digikey"
-	1    1050 2850
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:VBUS #PWR01
 U 1 1 5F6AB1E8
@@ -530,26 +513,6 @@ Wire Wire Line
 Connection ~ 5100 2600
 Wire Wire Line
 	5100 2600 5300 2600
-Text Label 1300 3050 2    50   ~ 0
-IO13
-$Comp
-L Device:R_Small_US R3
-U 1 1 5F7258DA
-P 1050 2600
-F 0 "R3" H 1118 2646 50  0000 L CNN
-F 1 "1K" H 1118 2555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 2600 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1050 2600 50  0001 C CNN
-F 4 "CR0603-FX-1001ELF" H 1050 2600 50  0001 C CNN "*Digikey"
-	1    1050 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 2750 1050 2700
-Wire Wire Line
-	1050 2500 1050 2450
-Wire Wire Line
-	1050 3050 1300 3050
 NoConn ~ 6100 2400
 NoConn ~ 6100 2500
 NoConn ~ 6100 2600
@@ -562,10 +525,6 @@ NoConn ~ 7500 2500
 NoConn ~ 7500 1900
 NoConn ~ 7500 1700
 NoConn ~ 7500 1600
-Text Label 3650 2450 2    50   ~ 0
-IO13
-Wire Wire Line
-	3400 2450 3650 2450
 Wire Notes Line
 	4350 850  7850 850 
 Wire Notes Line
@@ -618,7 +577,7 @@ AR Path="/5F4A1531" Ref="U?"  Part="1"
 AR Path="/5F4501E0/5F4A1531" Ref="U3"  Part="1" 
 F 0 "U3" H 2800 4531 50  0000 C CNN
 F 1 "ESP32-WROOM-32" H 2800 4440 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 2800 1450 50  0001 C CNN
+F 2 "Themu_FP_Lib:ESP32WROOM32D" H 2800 1450 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2500 3000 50  0001 C CNN
 F 4 "1965-ESP32-WROOM-32D(4MB)CT-ND" H 2800 2950 50  0001 C CNN "*Digikey"
 	1    2800 2950
@@ -636,36 +595,21 @@ Wire Wire Line
 	3400 2350 3650 2350
 Text Label 3650 2350 2    50   ~ 0
 IO12
-Text HLabel 3650 2350 2    50   Input ~ 0
+Text HLabel 3650 3450 2    50   Input ~ 0
 BTN
-Text HLabel 3850 3750 2    50   Input ~ 0
-FLX2
-Text HLabel 3850 3850 2    50   Input ~ 0
-FLX3
 Text HLabel 3850 3950 2    50   Input ~ 0
-FLX4
+FLX2
 Text HLabel 3850 4050 2    50   Input ~ 0
+FLX3
+Text HLabel 3850 3750 2    50   Input ~ 0
+FLX4
+Text HLabel 3850 3850 2    50   Input ~ 0
 FLX5
 Text HLabel 1750 2050 0    50   Input ~ 0
 FLX1
 NoConn ~ 3400 2750
-Text Label 1500 3800 2    50   ~ 0
+Text Label 1550 2550 2    50   ~ 0
 ADC1_CH0
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F795B24
-P 1050 2450
-AR Path="/5F795B24" Ref="#PWR?"  Part="1" 
-AR Path="/5F4501E0/5F795B24" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 1050 2300 50  0001 C CNN
-F 1 "+3.3V" H 1065 2623 50  0000 C CNN
-F 2 "" H 1050 2450 50  0001 C CNN
-F 3 "" H 1050 2450 50  0001 C CNN
-	1    1050 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 3050 1050 2950
 $Comp
 L Device:C_Small C14
 U 1 1 5F7AA131
@@ -702,4 +646,98 @@ Wire Wire Line
 Wire Wire Line
 	5350 1700 5150 1700
 Connection ~ 5150 1700
+$Comp
+L LED:ASMB-MTB1-0A3A2 L1
+U 1 1 5F840B4C
+P 1300 3850
+F 0 "L1" H 1300 3333 50  0000 C CNN
+F 1 "RGB LED" H 1300 3424 50  0000 C CNN
+F 2 "LED APTF1616LSEEZGKQBKC:LED APTF1616LSEEZGKQBKC" H 1300 4450 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/APTF1616LSEEZGKQBKC.pdf" H 1300 3400 50  0001 C CNN
+F 4 "APTF1616LSEEZGKQBKC" H 1300 3850 50  0001 C CNN "*Digikey"
+	1    1300 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 5F857FC9
+P 1650 3650
+F 0 "R3" V 1550 3550 50  0000 C CNN
+F 1 "1K" V 1550 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 3650 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1650 3650 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 1650 3650 50  0001 C CNN "*Digikey"
+	1    1650 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R20
+U 1 1 5F858D55
+P 1650 3850
+F 0 "R20" V 1550 3750 50  0000 C CNN
+F 1 "1K" V 1550 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 3850 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1650 3850 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 1650 3850 50  0001 C CNN "*Digikey"
+	1    1650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R21
+U 1 1 5F85AC5C
+P 1650 4050
+F 0 "R21" V 1550 3950 50  0000 C CNN
+F 1 "1K" V 1550 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 4050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1650 4050 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 1650 4050 50  0001 C CNN "*Digikey"
+	1    1650 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F85EEE7
+P 1100 3350
+AR Path="/5F85EEE7" Ref="#PWR?"  Part="1" 
+AR Path="/5F4501E0/5F85EEE7" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 1100 3200 50  0001 C CNN
+F 1 "+3.3V" H 1115 3523 50  0000 C CNN
+F 2 "" H 1100 3350 50  0001 C CNN
+F 3 "" H 1100 3350 50  0001 C CNN
+	1    1100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3350 1100 3850
+Wire Wire Line
+	1500 3650 1550 3650
+Wire Wire Line
+	1500 3850 1550 3850
+Wire Wire Line
+	1550 4050 1500 4050
+Text Label 1950 3650 2    50   ~ 0
+IO12
+Text Label 1950 3850 2    50   ~ 0
+IO26
+Text Label 1950 4050 2    50   ~ 0
+IO27
+Wire Wire Line
+	1750 3650 1950 3650
+Wire Wire Line
+	1750 3850 1950 3850
+Wire Wire Line
+	1750 4050 1950 4050
+Text Label 3650 3450 2    50   ~ 0
+IO25
+Text Label 3650 3550 2    50   ~ 0
+IO26
+Text Label 3650 3650 2    50   ~ 0
+IO27
+Wire Wire Line
+	3400 3450 3650 3450
+Wire Wire Line
+	3400 3550 3650 3550
+Wire Wire Line
+	3400 3650 3650 3650
+NoConn ~ 3400 2450
 $EndSCHEMATC
