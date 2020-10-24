@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Themu-Adapter)(type Legacy)(uri ${KIPRJMOD}/Library/Themu-Adapter.lib)(options "")(descr ""))
-)

@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Themu_FP_Lib)(type KiCad)(uri ${KIPRJMOD}/../FootprintLib)(options "")(descr ""))
-)
