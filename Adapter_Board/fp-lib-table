@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Themu-Adapter)(type KiCad)(uri ${KIPRJMOD}/Library/Themu-Adapter.pretty)(options "")(descr ""))
+)
