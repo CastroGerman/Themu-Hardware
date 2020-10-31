@@ -179,31 +179,31 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 5F4C4C76
-P 2750 1450
+P 2750 1500
 AR Path="/5F4C4C76" Ref="C?"  Part="1" 
 AR Path="/5F4501E0/5F4C4C76" Ref="C?"  Part="1" 
 AR Path="/5F450ACB/5F4C4C76" Ref="C11"  Part="1" 
-F 0 "C11" H 2842 1496 50  0000 L CNN
-F 1 "0.1uF 25V X7R" H 2842 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2750 1450 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2750 1450 50  0001 C CNN
-F 4 "06033C104KAT4A" H 2750 1450 50  0001 C CNN "*Digikey"
-	1    2750 1450
+F 0 "C11" H 2950 1550 50  0000 L CNN
+F 1 "0.1uF 25V X7R" H 3150 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2750 1500 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2750 1500 50  0001 C CNN
+F 4 "06033C104KAT4A" H 2750 1500 50  0001 C CNN "*Digikey"
+	1    2750 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5F4C4C70
-P 3000 1650
+P 2900 1600
 AR Path="/5F4C4C70" Ref="C?"  Part="1" 
 AR Path="/5F4501E0/5F4C4C70" Ref="C?"  Part="1" 
 AR Path="/5F450ACB/5F4C4C70" Ref="C12"  Part="1" 
-F 0 "C12" H 3092 1696 50  0000 L CNN
-F 1 "22uF 6.3V X5R" H 3092 1605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 1650 50  0001 C CNN
-F 3 "http://datasheets.avx.com/cx5r.pdf" H 3000 1650 50  0001 C CNN
-F 4 "06036D226MAT2A" H 3000 1650 50  0001 C CNN "*Digikey"
-	1    3000 1650
+F 0 "C12" H 3000 1600 50  0000 L CNN
+F 1 "22uF 6.3V X5R" H 3200 1600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 1600 50  0001 C CNN
+F 3 "http://datasheets.avx.com/cx5r.pdf" H 2900 1600 50  0001 C CNN
+F 4 "06036D226MAT2A" H 2900 1600 50  0001 C CNN "*Digikey"
+	1    2900 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -220,8 +220,6 @@ F 3 "" H 3200 1800 50  0001 C CNN
 	1    3200 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 1750 3000 1750
 Wire Wire Line
 	2750 1350 2550 1350
 Wire Wire Line
@@ -255,9 +253,9 @@ Wire Wire Line
 Connection ~ 2550 1350
 Wire Wire Line
 	1400 1550 1400 1700
-Text HLabel 1400 2150 0    50   BiDi ~ 0
+Text HLabel 1350 2150 0    50   BiDi ~ 0
 SDA
-Text HLabel 1100 2250 0    50   BiDi ~ 0
+Text HLabel 1050 2250 0    50   BiDi ~ 0
 SCL
 $Comp
 L power:+3V3 #PWR010
@@ -283,8 +281,6 @@ F 3 "" H 2550 1250 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	4000 900  4000 3800
-Wire Notes Line
-	850  3800 850  900 
 Text Notes 2050 850  0    50   ~ 0
 IMU - MPU6050\n
 Text Notes 5750 850  0    50   ~ 0
@@ -293,8 +289,8 @@ $Comp
 L Device:C_Small C9
 U 1 1 5F60116B
 P 6100 1800
-F 0 "C9" H 6192 1846 50  0000 L CNN
-F 1 "1000pF 25V X5R" H 6192 1755 50  0000 L CNN
+F 0 "C9" H 6200 1750 50  0000 L CNN
+F 1 "1000pF 25V X5R" H 6200 1650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 1800 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6100 1800 50  0001 C CNN
 F 4 "06033C102KAT2A" H 6100 1800 50  0001 C CNN "*Digikey"
@@ -349,17 +345,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 2250 1750 2250
 Wire Wire Line
-	2750 1550 2750 1750
-Wire Wire Line
 	3200 1750 3200 1800
-Connection ~ 3000 1750
-Wire Wire Line
-	3000 1750 3200 1750
-Wire Wire Line
-	2750 1350 3000 1350
-Wire Wire Line
-	3000 1350 3000 1550
-Connection ~ 2750 1350
 Wire Notes Line
 	850  900  4000 900 
 Wire Notes Line
@@ -368,75 +354,80 @@ Text HLabel 5950 1600 0    50   Output ~ 0
 BTN
 Wire Wire Line
 	6100 1600 5950 1600
-Text HLabel 4550 2050 0    50   Output ~ 0
+Text HLabel 4550 2500 0    50   Output ~ 0
 FLX1
 $Comp
 L Device:R_Small_US R15
 U 1 1 5F7336DD
-P 5050 2150
-F 0 "R15" H 4900 2100 50  0000 C CNN
-F 1 "1K" H 4900 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 2150 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5050 2150 50  0001 C CNN
-F 4 "CR0603-FX-1001ELF" H 5050 2150 50  0001 C CNN "*Digikey"
-	1    5050 2150
-	-1   0    0    1   
+P 5150 2350
+F 0 "R15" H 5000 2300 50  0000 C CNN
+F 1 "47K" H 5000 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5150 2350 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5150 2350 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 5150 2350 50  0001 C CNN "*Digikey"
+F 5 "ERJ-U3RD4702V" H 5150 2350 50  0001 C CNN "*Arrow"
+	1    5150 2350
+	1    0    0    -1  
 $EndComp
-Text HLabel 4550 1800 0    50   Output ~ 0
+Text HLabel 4550 2200 0    50   Output ~ 0
 FLX2
 $Comp
 L Device:R_Small_US R16
 U 1 1 5F73D12E
-P 4950 1900
-F 0 "R16" H 4800 1850 50  0000 C CNN
-F 1 "1K" H 4800 1950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 1900 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4950 1900 50  0001 C CNN
-F 4 "CR0603-FX-1001ELF" H 4950 1900 50  0001 C CNN "*Digikey"
-	1    4950 1900
-	-1   0    0    1   
+P 5050 2050
+F 0 "R16" H 4900 2000 50  0000 C CNN
+F 1 "47K" H 4900 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 2050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5050 2050 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 5050 2050 50  0001 C CNN "*Digikey"
+F 5 "ERJ-U3RD4702V" H 5050 2050 50  0001 C CNN "*Arrow"
+	1    5050 2050
+	1    0    0    -1  
 $EndComp
-Text HLabel 4550 1550 0    50   Output ~ 0
+Text HLabel 4550 1900 0    50   Output ~ 0
 FLX3
 $Comp
 L Device:R_Small_US R17
 U 1 1 5F743EE1
-P 4850 1650
-F 0 "R17" H 4700 1600 50  0000 C CNN
-F 1 "1K" H 4700 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 1650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4850 1650 50  0001 C CNN
-F 4 "CR0603-FX-1001ELF" H 4850 1650 50  0001 C CNN "*Digikey"
-	1    4850 1650
-	-1   0    0    1   
+P 4950 1750
+F 0 "R17" H 4800 1700 50  0000 C CNN
+F 1 "47K" H 4800 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 1750 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4950 1750 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 4950 1750 50  0001 C CNN "*Digikey"
+F 5 "ERJ-U3RD4702V" H 4950 1750 50  0001 C CNN "*Arrow"
+	1    4950 1750
+	1    0    0    -1  
 $EndComp
-Text HLabel 4550 1300 0    50   Output ~ 0
+Text HLabel 4550 1600 0    50   Output ~ 0
 FLX4
 $Comp
 L Device:R_Small_US R18
 U 1 1 5F7464EA
-P 4750 1400
-F 0 "R18" H 4600 1350 50  0000 C CNN
-F 1 "1K" H 4600 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 1400 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4750 1400 50  0001 C CNN
-F 4 "CR0603-FX-1001ELF" H 4750 1400 50  0001 C CNN "*Digikey"
-	1    4750 1400
-	-1   0    0    1   
+P 4850 1450
+F 0 "R18" H 4700 1400 50  0000 C CNN
+F 1 "47K" H 4700 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 1450 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4850 1450 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 4850 1450 50  0001 C CNN "*Digikey"
+F 5 "ERJ-U3RD4702V" H 4850 1450 50  0001 C CNN "*Arrow"
+	1    4850 1450
+	1    0    0    -1  
 $EndComp
-Text HLabel 4550 1050 0    50   Output ~ 0
+Text HLabel 4550 1300 0    50   Output ~ 0
 FLX5
 $Comp
 L Device:R_Small_US R19
 U 1 1 5F748D84
-P 4650 1150
-F 0 "R19" H 4500 1100 50  0000 C CNN
-F 1 "1K" H 4500 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4650 1150 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4650 1150 50  0001 C CNN
-F 4 "CR0603-FX-1001ELF" H 4650 1150 50  0001 C CNN "*Digikey"
-	1    4650 1150
-	-1   0    0    1   
+P 4750 1150
+F 0 "R19" H 4600 1100 50  0000 C CNN
+F 1 "47K" H 4600 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 1150 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4750 1150 50  0001 C CNN
+F 4 "CR0603-FX-1001ELF" H 4750 1150 50  0001 C CNN "*Digikey"
+F 5 "ERJ-U3RD4702V" H 4750 1150 50  0001 C CNN "*Arrow"
+	1    4750 1150
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C13
@@ -454,6 +445,150 @@ Wire Wire Line
 	3550 3150 3550 3500
 Wire Wire Line
 	3550 2650 3550 2950
+Text Label 5450 2500 2    50   ~ 0
+FLEX1
+Text Label 5450 2200 2    50   ~ 0
+FLEX2
+Text Label 5450 1900 2    50   ~ 0
+FLEX3
+Text Label 5450 1600 2    50   ~ 0
+FLEX4
+Text Label 5450 1300 2    50   ~ 0
+FLEX5
+Text Label 6750 1600 2    50   ~ 0
+BUTTON
+Wire Notes Line
+	8400 900  8400 2550
+Wire Notes Line
+	4200 2550 4200 900 
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5F9E05D4
+P 5200 1050
+F 0 "#PWR05" H 5200 900 50  0001 C CNN
+F 1 "+3.3V" H 5215 1223 50  0000 C CNN
+F 2 "" H 5200 1050 50  0001 C CNN
+F 3 "" H 5200 1050 50  0001 C CNN
+	1    5200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1300 4750 1300
+Wire Wire Line
+	4550 1600 4850 1600
+Wire Wire Line
+	4550 1900 4950 1900
+Wire Wire Line
+	4550 2200 5050 2200
+Wire Wire Line
+	4550 2500 5150 2500
+Wire Wire Line
+	5200 1050 5150 1050
+Wire Wire Line
+	4750 1250 4750 1300
+Connection ~ 4750 1300
+Wire Wire Line
+	4750 1300 5450 1300
+Wire Wire Line
+	4850 1050 4850 1350
+Connection ~ 4850 1050
+Wire Wire Line
+	4850 1050 4750 1050
+Wire Wire Line
+	4850 1550 4850 1600
+Connection ~ 4850 1600
+Wire Wire Line
+	4850 1600 5450 1600
+Wire Wire Line
+	4950 1650 4950 1050
+Connection ~ 4950 1050
+Wire Wire Line
+	4950 1050 4850 1050
+Wire Wire Line
+	4950 1850 4950 1900
+Connection ~ 4950 1900
+Wire Wire Line
+	4950 1900 5450 1900
+Wire Wire Line
+	5050 1950 5050 1050
+Connection ~ 5050 1050
+Wire Wire Line
+	5050 1050 4950 1050
+Wire Wire Line
+	5150 2250 5150 1050
+Connection ~ 5150 1050
+Wire Wire Line
+	5150 1050 5050 1050
+Wire Wire Line
+	5050 2150 5050 2200
+Connection ~ 5050 2200
+Wire Wire Line
+	5050 2200 5450 2200
+Wire Wire Line
+	5150 2450 5150 2500
+Connection ~ 5150 2500
+Wire Wire Line
+	5150 2500 5450 2500
+Text Notes 4550 2900 0    50   ~ 0
+Cambiar:\nR15,16,17,18,19 por 47K\nc9 por 0.1uf
+$Comp
+L Device:R_Small_US R22
+U 1 1 5FA0B3D0
+P 6300 1600
+F 0 "R22" V 6400 1500 50  0000 L CNN
+F 1 "1K" V 6400 1650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6300 1600 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6300 1600 50  0001 C CNN
+F 4 "CR0603-FX-1002ELF" H 6300 1600 50  0001 C CNN "*Digikey"
+	1    6300 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 1600 6750 1600
+Wire Wire Line
+	6200 1600 6100 1600
+NoConn ~ 7950 1350
+Text Label 8150 1450 2    50   ~ 0
+BUTTON
+Text Label 8150 1950 2    50   ~ 0
+FLEX1
+Text Label 8150 1550 2    50   ~ 0
+FLEX5
+Text Label 8150 1850 2    50   ~ 0
+FLEX2
+Text Label 8150 1650 2    50   ~ 0
+FLEX4
+Text Label 8150 1750 2    50   ~ 0
+FLEX3
+Wire Wire Line
+	7950 1350 7850 1350
+Wire Wire Line
+	7850 1450 8150 1450
+Wire Wire Line
+	8150 1550 7850 1550
+Wire Wire Line
+	7850 1650 8150 1650
+Wire Wire Line
+	8150 1750 7850 1750
+Wire Wire Line
+	7850 1850 8150 1850
+Wire Wire Line
+	8150 1950 7850 1950
+Wire Wire Line
+	7950 2050 7850 2050
+Wire Wire Line
+	7950 2100 7950 2050
+$Comp
+L power:GND #PWR0104
+U 1 1 5F90F590
+P 7950 2100
+F 0 "#PWR0104" H 7950 1850 50  0001 C CNN
+F 1 "GND" H 7955 1927 50  0000 C CNN
+F 2 "" H 7950 2100 50  0001 C CNN
+F 3 "" H 7950 2100 50  0001 C CNN
+	1    7950 2100
+	1    0    0    -1  
+$EndComp
 $Comp
 L Connector_Generic:Conn_01x08 J3
 U 1 1 5F7E9F89
@@ -466,136 +601,26 @@ F 4 "PRPC008SGAN-M71RC" H 7850 1250 50  0000 C CNN "*Digikey"
 	1    7650 1750
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5F806F43
-P 4650 2250
-F 0 "#PWR0102" H 4650 2000 50  0001 C CNN
-F 1 "GND" H 4655 2077 50  0000 C CNN
-F 2 "" H 4650 2250 50  0001 C CNN
-F 3 "" H 4650 2250 50  0001 C CNN
-	1    4650 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0103
-U 1 1 5F81646F
-P 7950 1300
-F 0 "#PWR0103" H 7950 1150 50  0001 C CNN
-F 1 "+3V3" H 7965 1473 50  0000 C CNN
-F 2 "" H 7950 1300 50  0001 C CNN
-F 3 "" H 7950 1300 50  0001 C CNN
-	1    7950 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5050 2250 4950 2250
+	1400 2150 1350 2150
+Connection ~ 1400 2150
 Wire Wire Line
-	4650 1250 4650 2250
+	1100 2250 1050 2250
+Connection ~ 1100 2250
 Wire Wire Line
-	4750 1500 4750 2250
-Connection ~ 4750 2250
+	2750 1750 2900 1750
 Wire Wire Line
-	4750 2250 4650 2250
+	2750 1350 2750 1400
 Wire Wire Line
-	4850 1750 4850 2250
-Connection ~ 4850 2250
+	2750 1600 2750 1750
 Wire Wire Line
-	4850 2250 4750 2250
+	2750 1350 2900 1350
 Wire Wire Line
-	4950 2000 4950 2250
-Connection ~ 4950 2250
+	2900 1350 2900 1500
 Wire Wire Line
-	4950 2250 4850 2250
-Text Label 5450 2050 2    50   ~ 0
-FLEX1
-Text Label 5450 1800 2    50   ~ 0
-FLEX2
-Text Label 5450 1550 2    50   ~ 0
-FLEX3
-Text Label 5450 1300 2    50   ~ 0
-FLEX4
-Text Label 5450 1050 2    50   ~ 0
-FLEX5
-Connection ~ 4650 2250
-Text Label 6500 1600 2    50   ~ 0
-BUTTON
+	2900 1700 2900 1750
+Connection ~ 2750 1350
+Connection ~ 2900 1750
 Wire Wire Line
-	6100 1600 6500 1600
-Wire Wire Line
-	4550 1050 4650 1050
-Connection ~ 4650 1050
-Wire Wire Line
-	4650 1050 5450 1050
-Wire Wire Line
-	4550 1300 4750 1300
-Connection ~ 4750 1300
-Wire Wire Line
-	4750 1300 5450 1300
-Wire Wire Line
-	4550 1550 4850 1550
-Connection ~ 4850 1550
-Wire Wire Line
-	4850 1550 5450 1550
-Wire Wire Line
-	4550 1800 4950 1800
-Connection ~ 4950 1800
-Wire Wire Line
-	4950 1800 5450 1800
-Wire Wire Line
-	4550 2050 5050 2050
-Connection ~ 5050 2050
-Wire Wire Line
-	5050 2050 5450 2050
-$Comp
-L power:GND #PWR0104
-U 1 1 5F90F590
-P 7950 2100
-F 0 "#PWR0104" H 7950 1850 50  0001 C CNN
-F 1 "GND" H 7955 1927 50  0000 C CNN
-F 2 "" H 7950 2100 50  0001 C CNN
-F 3 "" H 7950 2100 50  0001 C CNN
-	1    7950 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 2100 7950 2050
-Wire Wire Line
-	7950 2050 7850 2050
-Wire Wire Line
-	8150 1950 7850 1950
-Wire Wire Line
-	7850 1850 8150 1850
-Wire Wire Line
-	8150 1750 7850 1750
-Wire Wire Line
-	7850 1650 8150 1650
-Wire Wire Line
-	8150 1550 7850 1550
-Wire Wire Line
-	7850 1450 8150 1450
-Wire Wire Line
-	7950 1300 7950 1350
-Wire Wire Line
-	7950 1350 7850 1350
-Wire Notes Line
-	4200 900  8400 900 
-Wire Notes Line
-	8400 900  8400 2550
-Wire Notes Line
-	8400 2550 4200 2550
-Wire Notes Line
-	4200 2550 4200 900 
-Text Label 8150 1750 2    50   ~ 0
-FLEX3
-Text Label 8150 1650 2    50   ~ 0
-FLEX4
-Text Label 8150 1850 2    50   ~ 0
-FLEX2
-Text Label 8150 1550 2    50   ~ 0
-FLEX5
-Text Label 8150 1950 2    50   ~ 0
-FLEX1
-Text Label 8150 1450 2    50   ~ 0
-BUTTON
+	2900 1750 3200 1750
 $EndSCHEMATC
