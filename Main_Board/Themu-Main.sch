@@ -7,7 +7,7 @@ Sheet 1 4
 Title "THEMU Hardware"
 Date "2020-09-24"
 Rev "02"
-Comp ""
+Comp "By Castro Germán & Diaz Manuel"
 Comment1 ""
 Comment2 ""
 Comment3 ""

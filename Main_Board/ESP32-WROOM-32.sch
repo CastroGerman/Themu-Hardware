@@ -7,7 +7,7 @@ Sheet 4 4
 Title "ESP32-WROOM-32"
 Date "2020-09-24"
 Rev "02"
-Comp ""
+Comp "By Castro Germán & Diaz Manuel"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -729,10 +729,10 @@ Wire Wire Line
 	3400 3650 3650 3650
 NoConn ~ 3400 2450
 $Comp
-L Device:LED_ARGB L1
+L Device:LED_ARGB D3
 U 1 1 5F8899CA
 P 1300 3850
-F 0 "L1" H 1300 3383 50  0000 C CNN
+F 0 "D3" H 1300 3383 50  0000 C CNN
 F 1 "LED_ARGB" H 1300 3474 50  0000 C CNN
 F 2 "Main_Board:LED_APTF1616LSEEZGKQBKC" H 1300 3800 50  0001 C CNN
 F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/APTF1616LSEEZGKQBKC.pdf" H 1300 3800 50  0001 C CNN
