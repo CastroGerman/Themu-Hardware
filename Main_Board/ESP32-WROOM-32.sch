@@ -106,8 +106,9 @@ AR Path="/5F4501E0/5F4A13D6" Ref="R2"  Part="1"
 F 0 "R2" V 8295 2100 50  0000 C CNN
 F 1 "10K" V 8386 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8500 2100 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 8500 2100 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/662263d61145c0a53f06cbe0deb101d367377ab5/rn73r.pdf" H 8500 2100 50  0001 C CNN
 F 4 "CR0603-FX-1002ELF" H 8500 2100 50  0001 C CNN "*Digikey"
+F 5 "RN73R1JTTD1002B25" H 8500 2100 50  0001 C CNN "*Arrow"
 	1    8500 2100
 	0    1    1    0   
 $EndComp
@@ -120,8 +121,9 @@ AR Path="/5F4501E0/5F4A13DC" Ref="R1"  Part="1"
 F 0 "R1" V 8295 1300 50  0000 C CNN
 F 1 "10K" V 8386 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8500 1300 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 8500 1300 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/662263d61145c0a53f06cbe0deb101d367377ab5/rn73r.pdf" H 8500 1300 50  0001 C CNN
 F 4 "CR0603-FX-1002ELF" H 8500 1300 50  0001 C CNN "*Digikey"
+F 5 "RN73R1JTTD1002B25" H 8500 1300 50  0001 C CNN "*Arrow"
 	1    8500 1300
 	0    1    1    0   
 $EndComp
@@ -136,6 +138,7 @@ F 1 "mmbt2222" H 9090 2145 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9100 2200 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 8900 2100 50  0001 C CNN
 F 4 "MMBT2222ALT1GOSCT-ND" H 8900 2100 50  0001 C CNN "*Digikey"
+F 5 "MMBT2222LT1G" H 8900 2100 50  0001 C CNN "*Arrow"
 	1    8900 2100
 	1    0    0    1   
 $EndComp
@@ -150,6 +153,7 @@ F 1 "mmbt2222" H 9090 1255 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9100 1400 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/MMBT2222LT1-D.PDF" H 8900 1300 50  0001 C CNN
 F 4 "MMBT2222ALT1GOSCT-ND" H 8900 1300 50  0001 C CNN "*Digikey"
+F 5 "MMBT2222LT1G" H 8900 1300 50  0001 C CNN "*Arrow"
 	1    8900 1300
 	1    0    0    -1  
 $EndComp
@@ -193,8 +197,9 @@ AR Path="/5F4501E0/5F4A14B2" Ref="R10"  Part="1"
 F 0 "R10" H 1168 1346 50  0000 L CNN
 F 1 "10K" H 1168 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 1300 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1100 1300 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/662263d61145c0a53f06cbe0deb101d367377ab5/rn73r.pdf" H 1100 1300 50  0001 C CNN
 F 4 "CR0603-FX-1002ELF" H 1100 1300 50  0001 C CNN "*Digikey"
+F 5 "RN73R1JTTD1002B25" H 1100 1300 50  0001 C CNN "*Arrow"
 	1    1100 1300
 	1    0    0    -1  
 $EndComp
@@ -205,10 +210,11 @@ P 1100 1600
 AR Path="/5F4A14B8" Ref="C?"  Part="1" 
 AR Path="/5F4501E0/5F4A14B8" Ref="C5"  Part="1" 
 F 0 "C5" H 1192 1646 50  0000 L CNN
-F 1 "0.1uF 25V X7R" H 1192 1555 50  0000 L CNN
+F 1 "0.1uF 100V X7R" H 1192 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 1600 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1100 1600 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/11ff84947bdbed6cecdb5e2db8d31166d37b9d20/grm188r72a104ka35.pdf" H 1100 1600 50  0001 C CNN
 F 4 "06033C104KAT4A" H 1100 1600 50  0001 C CNN "*Digikey"
+F 5 "GRM188R72A104KA35D" H 1100 1600 50  0001 C CNN "*Arrow"
 	1    1100 1600
 	1    0    0    -1  
 $EndComp
@@ -245,8 +251,9 @@ AR Path="/5F4501E0/5F4A14CB" Ref="C7"  Part="1"
 F 0 "C7" H 3542 1296 50  0000 L CNN
 F 1 "22uF 6.3V X5R" H 3542 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 1250 50  0001 C CNN
-F 3 "http://datasheets.avx.com/cx5r.pdf" H 3450 1250 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/c523d1a354f6499a24517f7d97f0018db57c5966/grm187r60j226me15.pdf" H 3450 1250 50  0001 C CNN
 F 4 "06036D226MAT2A" H 3450 1250 50  0001 C CNN "*Digikey"
+F 5 "GRM187R60J226ME15D" H 3450 1250 50  0001 C CNN "*Arrow"
 	1    3450 1250
 	1    0    0    -1  
 $EndComp
@@ -257,10 +264,11 @@ P 3000 1250
 AR Path="/5F4A14D1" Ref="C?"  Part="1" 
 AR Path="/5F4501E0/5F4A14D1" Ref="C6"  Part="1" 
 F 0 "C6" H 3092 1296 50  0000 L CNN
-F 1 "0.1uF 25V X7R" H 3092 1205 50  0000 L CNN
+F 1 "0.1uF 100V X7R" H 3092 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 1250 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3000 1250 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/11ff84947bdbed6cecdb5e2db8d31166d37b9d20/grm188r72a104ka35.pdf" H 3000 1250 50  0001 C CNN
 F 4 "06033C104KAT4A" H 3000 1250 50  0001 C CNN "*Digikey"
+F 5 "GRM188R72A104KA35D" H 3000 1250 50  0001 C CNN "*Arrow"
 	1    3000 1250
 	1    0    0    -1  
 $EndComp
@@ -294,6 +302,7 @@ F 1 "CP2104" H 6800 1020 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 6950 1250 50  0001 L CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/cp2104.pdf" H 6250 3450 50  0001 C CNN
 F 4 "336-4146-1-ND" H 6800 2200 50  0001 C CNN "*Digikey"
+F 5 "CP2104-F03-GM (Quote)" H 6800 2200 50  0001 C CNN "*Arrow"
 	1    6800 2200
 	1    0    0    -1  
 $EndComp
@@ -302,10 +311,11 @@ L Device:C_Small C1
 U 1 1 5F62B7D9
 P 5350 1350
 F 0 "C1" H 5442 1396 50  0000 L CNN
-F 1 "0.1uF 25V X7R" H 5442 1305 50  0000 L CNN
+F 1 "0.1uF 100V X7R" H 5442 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 1350 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5350 1350 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/11ff84947bdbed6cecdb5e2db8d31166d37b9d20/grm188r72a104ka35.pdf" H 5350 1350 50  0001 C CNN
 F 4 "06033C104KAT4A" H 5350 1350 50  0001 C CNN "*Digikey"
+F 5 "GRM188R72A104KA35D" H 5350 1350 50  0001 C CNN "*Arrow"
 	1    5350 1350
 	1    0    0    -1  
 $EndComp
@@ -367,6 +377,7 @@ F 1 "USB_B_Micro" H 4807 3176 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4900 2750 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" H 4900 2750 50  0001 C CNN
 F 4 "1050170001" H 4750 2800 50  0001 C CNN "*Digikey"
+F 5 "1050170001" H 4750 2800 50  0001 C CNN "*Arrow"
 	1    4750 2800
 	1    0    0    -1  
 $EndComp
@@ -458,8 +469,9 @@ AR Path="/5F4501E0/5F674D0A" Ref="R4"  Part="1"
 F 0 "R4" H 1168 2396 50  0000 L CNN
 F 1 "100K" H 1168 2305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 2350 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1100 2350 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/662263d61145c0a53f06cbe0deb101d367377ab5/rn73r.pdf" H 1100 2350 50  0001 C CNN
 F 4 "CR0603-FX-1003ELF" H 1100 2350 50  0001 C CNN "*Digikey"
+F 5 "RN73R1JTTD1003B50" H 1100 2350 50  0001 C CNN "*Arrow"
 	1    1100 2350
 	1    0    0    -1  
 $EndComp
@@ -472,8 +484,9 @@ AR Path="/5F4501E0/5F677550" Ref="R5"  Part="1"
 F 0 "R5" H 1168 2746 50  0000 L CNN
 F 1 "100K" H 1168 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 2700 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1100 2700 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/662263d61145c0a53f06cbe0deb101d367377ab5/rn73r.pdf" H 1100 2700 50  0001 C CNN
 F 4 "CR0603-FX-1003ELF" H 1100 2700 50  0001 C CNN "*Digikey"
+F 5 "RN73R1JTTD1003B50" H 1100 2700 50  0001 C CNN "*Arrow"
 	1    1100 2700
 	1    0    0    -1  
 $EndComp
@@ -615,10 +628,11 @@ L Device:C_Small C14
 U 1 1 5F7AA131
 P 5150 1600
 F 0 "C14" H 5242 1646 50  0000 L CNN
-F 1 "10uF 25V X7R" H 5242 1555 50  0000 L CNN
+F 1 "10uF 6.3V X5R" H 5242 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 5150 1600 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5150 1600 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/f7a2596b5312288600ca127f041a86c0cac4c78c/grm188r60j106ke47.pdf" H 5150 1600 50  0001 C CNN
 F 4 "12103C106KAT2A" H 5150 1600 50  0001 C CNN "*Digikey"
+F 5 "GRM188R60J106KE47D" H 5150 1600 50  0001 C CNN "*Arrow"
 	1    5150 1600
 	1    0    0    -1  
 $EndComp
@@ -651,10 +665,11 @@ L Device:R_Small_US R3
 U 1 1 5F857FC9
 P 1650 3650
 F 0 "R3" V 1550 3550 50  0000 C CNN
-F 1 "1K" V 1550 3700 50  0000 C CNN
+F 1 "560R" V 1550 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 3650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1650 3650 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/89b273cd3ad0788d8b71596c5e78488e3c5e22e4/rk73b.pdf" H 1650 3650 50  0001 C CNN
 F 4 "CR0603-FX-1001ELF" H 1650 3650 50  0001 C CNN "*Digikey"
+F 5 "RK73B1JTTDD561J" H 1650 3650 50  0001 C CNN "*Arrow"
 	1    1650 3650
 	0    1    1    0   
 $EndComp
@@ -663,10 +678,11 @@ L Device:R_Small_US R20
 U 1 1 5F858D55
 P 1650 3850
 F 0 "R20" V 1550 3750 50  0000 C CNN
-F 1 "1K" V 1550 3900 50  0000 C CNN
+F 1 "374R" V 1550 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 3850 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1650 3850 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/295cce9d591dbc31ad781a9de7cadb1c39dc0344/rk73h.pdf" H 1650 3850 50  0001 C CNN
 F 4 "CR0603-FX-1001ELF" H 1650 3850 50  0001 C CNN "*Digikey"
+F 5 "RK73H1JTTD3740F" H 1650 3850 50  0001 C CNN "*Arrow"
 	1    1650 3850
 	0    1    1    0   
 $EndComp
@@ -675,10 +691,11 @@ L Device:R_Small_US R21
 U 1 1 5F85AC5C
 P 1650 4050
 F 0 "R21" V 1550 3950 50  0000 C CNN
-F 1 "1K" V 1550 4100 50  0000 C CNN
+F 1 "232R" V 1550 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 4050 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1650 4050 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/295cce9d591dbc31ad781a9de7cadb1c39dc0344/rk73h.pdf" H 1650 4050 50  0001 C CNN
 F 4 "CR0603-FX-1001ELF" H 1650 4050 50  0001 C CNN "*Digikey"
+F 5 "RK73H1JTTD2320F" H 1650 4050 50  0001 C CNN "*Arrow"
 	1    1650 4050
 	0    1    1    0   
 $EndComp
@@ -729,14 +746,14 @@ Wire Wire Line
 	3400 3650 3650 3650
 NoConn ~ 3400 2450
 $Comp
-L Device:LED_ARGB D3
-U 1 1 5F8899CA
+L Device:LED_RABG D3
+U 1 1 5FFE32BD
 P 1300 3850
 F 0 "D3" H 1300 3383 50  0000 C CNN
-F 1 "LED_ARGB" H 1300 3474 50  0000 C CNN
-F 2 "Main_Board:LED_APTF1616LSEEZGKQBKC" H 1300 3800 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/APTF1616LSEEZGKQBKC.pdf" H 1300 3800 50  0001 C CNN
-F 4 "APTF1616LSEEZGKQBKC" H 1300 3850 50  0001 C CNN "*Digikey"
+F 1 "LED_RABG" H 1300 3474 50  0000 C CNN
+F 2 "Main_Board:LED_QBLP655R_RGB" H 1300 3800 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/2e9f9b5de02200d8efd894b12d78141ca956a5cd/qblp655-rgb.pdf" H 1300 3800 50  0001 C CNN
+F 4 "QBLP655-RGB" H 1300 3850 50  0001 C CNN "*Arrow"
 	1    1300 3850
 	-1   0    0    1   
 $EndComp
