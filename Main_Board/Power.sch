@@ -22,6 +22,7 @@ F 1 "AP2112K-3.3" H 2600 2351 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2600 2425 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 2600 2200 50  0001 C CNN
 F 4 "AP2112K-3.3TRG1DICT-ND" H 2600 2100 50  0001 C CNN "*Digikey"
+F 5 "AP2112K-3.3TRG1" H 2600 2100 50  0001 C CNN "*Arrow"
 	1    2600 2100
 	1    0    0    -1  
 $EndComp
@@ -32,8 +33,9 @@ P 2000 2100
 F 0 "R7" V 1900 2150 50  0000 C CNN
 F 1 "100K" V 1800 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2000 2100 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 2000 2100 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/662263d61145c0a53f06cbe0deb101d367377ab5/rn73r.pdf" H 2000 2100 50  0001 C CNN
 F 4 "CR0603-FX-1003ELF" H 2000 2100 50  0001 C CNN "*Digikey"
+F 5 "RN73R1JTTD1003B50" H 2000 2100 50  0001 C CNN "*Arrow"
 	1    2000 2100
 	0    -1   -1   0   
 $EndComp
@@ -44,8 +46,9 @@ P 950 2100
 F 0 "R6" H 1018 2146 50  0000 L CNN
 F 1 "100K" H 1018 2055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 950 2100 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 950 2100 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/662263d61145c0a53f06cbe0deb101d367377ab5/rn73r.pdf" H 950 2100 50  0001 C CNN
 F 4 "CR0603-FX-1003ELF" H 950 2100 50  0001 C CNN "*Digikey"
+F 5 "RN73R1JTTD1003B50" H 950 2100 50  0001 C CNN "*Arrow"
 	1    950  2100
 	1    0    0    -1  
 $EndComp
@@ -56,8 +59,9 @@ P 1250 2000
 F 0 "D2" H 1250 1783 50  0000 C CNN
 F 1 "MBR120" H 1250 1874 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 1250 1825 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 1250 2000 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/e8003dfacd77d1ebac96075b6dca1073b845ce4e/mbr120vlsft1-d.pdf" H 1250 2000 50  0001 C CNN
 F 4 "MBR120VLSFT3GOSTR-ND" H 1250 2000 50  0001 C CNN "*Digikey"
+F 5 "MBR120VLSFT3G" H 1250 2000 50  0001 C CNN "*Arrow"
 	1    1250 2000
 	-1   0    0    1   
 $EndComp
@@ -66,10 +70,11 @@ L Transistor_FET:DMG2301L Q3
 U 1 1 5F5E01DD
 P 1600 1500
 F 0 "Q3" H 1804 1546 50  0000 L CNN
-F 1 "DMP2045U" H 1804 1455 50  0000 L CNN
+F 1 "DMG2305U" H 1804 1455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1800 1425 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMP2045U.pdf" H 1600 1500 50  0001 L CNN
+F 3 "https://static6.arrow.com/aropdfconversion/44c9eaa54d5f47022f33e83632b1728195293187/dmg2305ux.pdf" H 1600 1500 50  0001 L CNN
 F 4 "DMP2045U-7DICT-ND" H 1600 1500 50  0001 C CNN "*Digikey"
+F 5 "DMG2305UX-13" H 1600 1500 50  0001 C CNN "*Arrow"
 	1    1600 1500
 	1    0    0    -1  
 $EndComp
@@ -78,10 +83,11 @@ L Device:C_Small C2
 U 1 1 5F5E1B2F
 P 1650 2350
 F 0 "C2" H 1742 2396 50  0000 L CNN
-F 1 "10uF 25V X7R" H 1742 2305 50  0000 L CNN
+F 1 "10uF 6.3V X5R" H 1742 2305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1650 2350 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1650 2350 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/f7a2596b5312288600ca127f041a86c0cac4c78c/grm188r60j106ke47.pdf" H 1650 2350 50  0001 C CNN
 F 4 "12103C106KAT2A" H 1650 2350 50  0001 C CNN "*Digikey"
+F 5 "GRM188R60J106KE47D" H 1650 2350 50  0001 C CNN "*Arrow"
 	1    1650 2350
 	1    0    0    -1  
 $EndComp
@@ -171,10 +177,11 @@ L Device:C_Small C3
 U 1 1 5F5E75DD
 P 3100 2350
 F 0 "C3" H 3400 2350 50  0000 L CNN
-F 1 "10uF 25V X7R" H 3550 2350 50  0000 L CNN
+F 1 "10uF 6.3V X5R" H 3550 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3100 2350 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3100 2350 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/f7a2596b5312288600ca127f041a86c0cac4c78c/grm188r60j106ke47.pdf" H 3100 2350 50  0001 C CNN
 F 4 "12103C106KAT2A" H 3100 2350 50  0001 C CNN "*Digikey"
+F 5 "GRM188R60J106KE47D" H 3100 2350 50  0001 C CNN "*Arrow"
 	1    3100 2350
 	1    0    0    -1  
 $EndComp
@@ -183,10 +190,11 @@ L Device:C_Small C4
 U 1 1 5F5E8856
 P 3300 2200
 F 0 "C4" H 3400 2200 50  0000 L CNN
-F 1 "1uF 25V X5R" H 3550 2200 50  0000 L CNN
+F 1 "1uF 6.3V X5R" H 3550 2200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 2200 50  0001 C CNN
-F 3 "http://datasheets.avx.com/cx5r.pdf" H 3300 2200 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/586f74e29ae0954806622435cc27099724fa32d3/grm185r60j105ke26.pdf" H 3300 2200 50  0001 C CNN
 F 4 "06033D105KAT2A" H 3300 2200 50  0001 C CNN "*Digikey"
+F 5 "GRM185R60J105KE26D" H 3300 2200 50  0001 C CNN "*Arrow"
 	1    3300 2200
 	1    0    0    -1  
 $EndComp
@@ -245,6 +253,7 @@ F 1 "Conn_01x02" H 4580 1751 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 4500 1850 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4500 1850 50  0001 C CNN
 F 4 "S2B-PH-K-S(LF)(SN)" H 4750 1600 50  0000 C CNN "*Digikey"
+F 5 "S2B-PH-K-S(LF)(SN)" H 4500 1850 50  0001 C CNN "*Arrow"
 	1    4500 1850
 	1    0    0    -1  
 $EndComp
@@ -283,6 +292,7 @@ F 1 "MCP73831-2-OT" H 6100 2340 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6150 1700 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 5950 1900 50  0001 C CNN
 F 4 "MCP73831T-2ACI/OTCT-ND" H 6100 1950 50  0001 C CNN "*Digikey"
+F 5 "MCP73831T-5ACI/OT" H 6100 1950 50  0001 C CNN "*Arrow"
 	1    6100 1950
 	1    0    0    -1  
 $EndComp
@@ -293,8 +303,9 @@ P 6700 1750
 F 0 "R9" H 6800 1800 50  0000 C CNN
 F 1 "1K" H 6800 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 1750 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6700 1750 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/bc77abbb940933dbec058fcb6d36cc6b880d3e09/rn73.pdf" H 6700 1750 50  0001 C CNN
 F 4 "CR0603-FX-1001ELF" H 6700 1750 50  0001 C CNN "*Digikey"
+F 5 "RN731JTTD1001B25" H 6700 1750 50  0001 C CNN "*Arrow"
 	1    6700 1750
 	1    0    0    -1  
 $EndComp
@@ -305,8 +316,9 @@ P 6700 1500
 F 0 "D1" V 6800 1350 50  0000 C CNN
 F 1 "RED LED" V 6700 1250 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6700 1500 50  0001 C CNN
-F 3 "https://www.aopled.com/AOP_PDFs/L196L-UEC.pdf" V 6700 1500 50  0001 C CNN
+F 3 "http://www.aopled.com/AOP_PDFs/L196L-UEC.pdf" V 6700 1500 50  0001 C CNN
 F 4 "L196L-UEC" H 6700 1500 50  0001 C CNN "*Digikey"
+F 5 "L196L-UEC-TR" H 6700 1500 50  0001 C CNN "*Arrow"
 	1    6700 1500
 	0    -1   -1   0   
 $EndComp
@@ -330,8 +342,9 @@ P 5500 2200
 F 0 "R8" H 5432 2154 50  0000 R CNN
 F 1 "4.7K" H 5432 2245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5500 2200 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5500 2200 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/bc77abbb940933dbec058fcb6d36cc6b880d3e09/rn73.pdf" H 5500 2200 50  0001 C CNN
 F 4 "CR0603-FX-4701ELF" H 5500 2200 50  0001 C CNN "*Digikey"
+F 5 "RN731JTTD4701B25" H 5500 2200 50  0001 C CNN "*Arrow"
 	1    5500 2200
 	-1   0    0    1   
 $EndComp
@@ -351,10 +364,11 @@ L Device:C_Small C8
 U 1 1 5F5FFAAE
 P 6900 2300
 F 0 "C8" H 6992 2346 50  0000 L CNN
-F 1 "10uF 25V X7R" H 6992 2255 50  0000 L CNN
+F 1 "10uF 6.3V X5R" H 6992 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 6900 2300 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6900 2300 50  0001 C CNN
+F 3 "https://static6.arrow.com/aropdfconversion/f7a2596b5312288600ca127f041a86c0cac4c78c/grm188r60j106ke47.pdf" H 6900 2300 50  0001 C CNN
 F 4 "12103C106KAT2A" H 6900 2300 50  0001 C CNN "*Digikey"
+F 5 "GRM188R60J106KE47D" H 6900 2300 50  0001 C CNN "*Arrow"
 	1    6900 2300
 	1    0    0    -1  
 $EndComp
@@ -471,4 +485,8 @@ Wire Wire Line
 Wire Wire Line
 	3300 1150 3300 2000
 Connection ~ 3300 2000
+Text Label 1750 2000 0    50   ~ 0
+RegIn
+Text Label 2950 2000 0    50   ~ 0
+RegOut
 $EndSCHEMATC
