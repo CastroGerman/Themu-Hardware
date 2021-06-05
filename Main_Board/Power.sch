@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Themu-Main-rescue:AP2112K-3.3-Regulator_Linear U2
+L Regulator_Linear:AP2112K-3.3 U2
 U 1 1 5F5D210A
 P 2600 2100
 F 0 "U2" H 2600 2442 50  0000 C CNN
@@ -27,7 +27,7 @@ F 5 "AP2112K-3.3TRG1" H 2600 2100 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:R_Small_US-Device R7
+L Device:R_Small_US R7
 U 1 1 5F5D73BC
 P 2000 2100
 F 0 "R7" V 1900 2150 50  0000 C CNN
@@ -40,7 +40,7 @@ F 5 "RN73R1JTTD1003B50" H 2000 2100 50  0001 C CNN "*Arrow"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Themu-Main-rescue:R_Small_US-Device R6
+L Device:R_Small_US R6
 U 1 1 5F5D82F4
 P 950 2100
 F 0 "R6" H 1018 2146 50  0000 L CNN
@@ -53,7 +53,7 @@ F 5 "RN73R1JTTD1003B50" H 950 2100 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:MBR340-Diode D2
+L Diode:MBR340 D2
 U 1 1 5F5DD9D5
 P 1250 2000
 F 0 "D2" H 1250 1783 50  0000 C CNN
@@ -66,7 +66,7 @@ F 5 "MBR120VLSFT3G" H 1250 2000 50  0001 C CNN "*Arrow"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Themu-Main-rescue:DMG2301L-Transistor_FET Q3
+L Transistor_FET:DMG2301L Q3
 U 1 1 5F5E01DD
 P 1600 1500
 F 0 "Q3" H 1804 1546 50  0000 L CNN
@@ -79,7 +79,7 @@ F 5 "DMG2305UX-13" H 1600 1500 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:C_Small-Device C2
+L Device:C_Small C2
 U 1 1 5F5E1B2F
 P 1650 2350
 F 0 "C2" H 1742 2396 50  0000 L CNN
@@ -118,7 +118,7 @@ Connection ~ 1700 2000
 Wire Wire Line
 	1700 2000 1650 2000
 $Comp
-L Themu-Main-rescue:GND-power #PWR018
+L power:GND #PWR018
 U 1 1 5F5E3B26
 P 1650 2500
 F 0 "#PWR018" H 1650 2250 50  0001 C CNN
@@ -129,7 +129,7 @@ F 3 "" H 1650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:VBUS-power #PWR016
+L power:VBUS #PWR016
 U 1 1 5F5E4B32
 P 950 1150
 F 0 "#PWR016" H 950 1000 50  0001 C CNN
@@ -140,7 +140,7 @@ F 3 "" H 950 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:+BATT-power #PWR019
+L power:+BATT #PWR019
 U 1 1 5F5E597E
 P 1700 1150
 F 0 "#PWR019" H 1700 1000 50  0001 C CNN
@@ -151,7 +151,7 @@ F 3 "" H 1700 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:GND-power #PWR017
+L power:GND #PWR017
 U 1 1 5F5E69F8
 P 950 2500
 F 0 "#PWR017" H 950 2250 50  0001 C CNN
@@ -162,7 +162,7 @@ F 3 "" H 950 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:GND-power #PWR020
+L power:GND #PWR020
 U 1 1 5F5E74CA
 P 2600 2500
 F 0 "#PWR020" H 2600 2250 50  0001 C CNN
@@ -173,7 +173,7 @@ F 3 "" H 2600 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:C_Small-Device C3
+L Device:C_Small C3
 U 1 1 5F5E75DD
 P 3100 2350
 F 0 "C3" H 3400 2350 50  0000 L CNN
@@ -186,7 +186,7 @@ F 5 "GRM188R60J106KE47D" H 3100 2350 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:C_Small-Device C4
+L Device:C_Small C4
 U 1 1 5F5E8856
 P 3300 2200
 F 0 "C4" H 3400 2200 50  0000 L CNN
@@ -199,7 +199,7 @@ F 5 "GRM185R60J105KE26D" H 3300 2200 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:GND-power #PWR021
+L power:GND #PWR021
 U 1 1 5F5E8D91
 P 3100 2500
 F 0 "#PWR021" H 3100 2250 50  0001 C CNN
@@ -210,7 +210,7 @@ F 3 "" H 3100 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:GND-power #PWR023
+L power:GND #PWR023
 U 1 1 5F5E8FAE
 P 3300 2500
 F 0 "#PWR023" H 3300 2250 50  0001 C CNN
@@ -221,7 +221,7 @@ F 3 "" H 3300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:+3V3-power #PWR022
+L power:+3V3 #PWR022
 U 1 1 5F5E9117
 P 3300 1150
 F 0 "#PWR022" H 3300 1000 50  0001 C CNN
@@ -245,7 +245,7 @@ Connection ~ 950  1500
 Wire Wire Line
 	1700 1150 1700 1300
 $Comp
-L Themu-Main-rescue:Conn_01x02-Connector_Generic J2
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5F5ECCBD
 P 4500 1850
 F 0 "J2" H 4580 1842 50  0000 L CNN
@@ -258,7 +258,7 @@ F 5 "S2B-PH-K-S(LF)(SN)" H 4500 1850 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:+BATT-power #PWR024
+L power:+BATT #PWR024
 U 1 1 5F5EF499
 P 4300 1500
 F 0 "#PWR024" H 4300 1350 50  0001 C CNN
@@ -269,7 +269,7 @@ F 3 "" H 4300 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:GND-power #PWR025
+L power:GND #PWR025
 U 1 1 5F5EFBEC
 P 4300 2350
 F 0 "#PWR025" H 4300 2100 50  0001 C CNN
@@ -284,7 +284,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1950 4300 2350
 $Comp
-L Themu-Main-rescue:MCP73831-2-OT-Battery_Management U4
+L Battery_Management:MCP73831-2-OT U4
 U 1 1 5F5F1703
 P 6100 1950
 F 0 "U4" H 6100 2431 50  0000 C CNN
@@ -297,7 +297,7 @@ F 5 "MCP73831T-5ACI/OT" H 6100 1950 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:R_Small_US-Device R9
+L Device:R_Small_US R9
 U 1 1 5F5F379D
 P 6700 1750
 F 0 "R9" H 6800 1800 50  0000 C CNN
@@ -310,7 +310,7 @@ F 5 "RN731JTTD1001B25" H 6700 1750 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:LED_Small_ALT-Device D1
+L Device:LED_Small_ALT D1
 U 1 1 5F5F5CC9
 P 6700 1500
 F 0 "D1" V 6800 1350 50  0000 C CNN
@@ -323,7 +323,7 @@ F 5 "L196L-UEC-TR" H 6700 1500 50  0001 C CNN "*Arrow"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Themu-Main-rescue:VBUS-power #PWR027
+L power:VBUS #PWR027
 U 1 1 5F5FC6D9
 P 6700 1300
 F 0 "#PWR027" H 6700 1150 50  0001 C CNN
@@ -336,7 +336,7 @@ $EndComp
 Wire Wire Line
 	6700 2050 6500 2050
 $Comp
-L Themu-Main-rescue:R_Small_US-Device R8
+L Device:R_Small_US R8
 U 1 1 5F5FD9AD
 P 5500 2200
 F 0 "R8" H 5432 2154 50  0000 R CNN
@@ -349,7 +349,7 @@ F 5 "RN731JTTD4701B25" H 5500 2200 50  0001 C CNN "*Arrow"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Themu-Main-rescue:GND-power #PWR026
+L power:GND #PWR026
 U 1 1 5F5FF071
 P 6100 2400
 F 0 "#PWR026" H 6100 2150 50  0001 C CNN
@@ -360,7 +360,7 @@ F 3 "" H 6100 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:C_Small-Device C8
+L Device:C_Small C8
 U 1 1 5F5FFAAE
 P 6900 2300
 F 0 "C8" H 6992 2346 50  0000 L CNN
@@ -373,7 +373,7 @@ F 5 "GRM188R60J106KE47D" H 6900 2300 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Themu-Main-rescue:GND-power #PWR029
+L power:GND #PWR029
 U 1 1 5F6012DA
 P 6900 2400
 F 0 "#PWR029" H 6900 2150 50  0001 C CNN
@@ -401,7 +401,7 @@ Text Notes 7250 1450 0    50   ~ 0
 Text Notes 7250 1700 0    50   ~ 0
 5K = 200mA\n2K = 500mA\n1K = 1000mA\n
 $Comp
-L Themu-Main-rescue:+BATT-power #PWR028
+L power:+BATT #PWR028
 U 1 1 5F6A9BEF
 P 6900 2100
 F 0 "#PWR028" H 6900 1950 50  0001 C CNN
@@ -419,7 +419,7 @@ Wire Wire Line
 	6900 2100 6900 2200
 Connection ~ 6900 2200
 $Comp
-L Themu-Main-rescue:PWR_FLAG-power #FLG0101
+L power:PWR_FLAG #FLG0101
 U 1 1 5F73E5D7
 P 2100 2000
 F 0 "#FLG0101" H 2100 2075 50  0001 C CNN
