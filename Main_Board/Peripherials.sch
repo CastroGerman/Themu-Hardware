@@ -32,7 +32,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 3100 1200 3150
 $Comp
-L power:GND #PWR09
+L Themu-Main-rescue:GND-power #PWR09
 U 1 1 5F4C01A2
 P 1200 3500
 F 0 "#PWR09" H 1200 3250 50  0001 C CNN
@@ -43,7 +43,7 @@ F 3 "" H 1200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C10
+L Themu-Main-rescue:C_Small-Device C10
 U 1 1 5F4BED98
 P 1200 3250
 F 0 "C10" H 1292 3296 50  0000 L CNN
@@ -56,7 +56,7 @@ F 5 "GRM188R72A104KA35D" H 1200 3250 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Motion:MPU-6050 U5
+L Themu-Main-rescue:MPU-6050-Sensor_Motion U5
 U 1 1 5F4A4F5D
 P 2450 2450
 F 0 "U5" H 2450 1661 50  0000 C CNN
@@ -73,7 +73,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 2350 1750 2350
 $Comp
-L power:GND #PWR08
+L Themu-Main-rescue:GND-power #PWR08
 U 1 1 5F4DD6D1
 P 1200 2750
 F 0 "#PWR08" H 1200 2500 50  0001 C CNN
@@ -84,7 +84,7 @@ F 3 "" H 1200 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R13
+L Themu-Main-rescue:R_Small_US-Device R13
 U 1 1 5F4DCD8D
 P 1200 2450
 F 0 "R13" H 1268 2496 50  0000 L CNN
@@ -99,7 +99,7 @@ $EndComp
 Wire Wire Line
 	1750 2750 1650 2750
 $Comp
-L power:GND #PWR011
+L Themu-Main-rescue:GND-power #PWR011
 U 1 1 5F4DBAAE
 P 1650 2750
 F 0 "#PWR011" H 1650 2500 50  0001 C CNN
@@ -133,7 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2150 1400 2150
 $Comp
-L Device:R_Small_US R12
+L Themu-Main-rescue:R_Small_US-Device R12
 U 1 1 5F4D04E6
 P 1100 1900
 F 0 "R12" H 1168 1946 50  0000 L CNN
@@ -146,7 +146,7 @@ F 5 "RN731JTTD4701B25" H 1100 1900 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R14
+L Themu-Main-rescue:R_Small_US-Device R14
 U 1 1 5F4CFB4F
 P 1400 1900
 F 0 "R14" H 1468 1946 50  0000 L CNN
@@ -182,7 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 1750 2350 1700
 $Comp
-L Device:C_Small C?
+L Themu-Main-rescue:C_Small-Device C?
 U 1 1 5F4C4C76
 P 2750 1500
 AR Path="/5F4C4C76" Ref="C?"  Part="1" 
@@ -198,7 +198,7 @@ F 5 "GRM188R72A104KA35D" H 2750 1500 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Themu-Main-rescue:C_Small-Device C?
 U 1 1 5F4C4C70
 P 2900 1600
 AR Path="/5F4C4C70" Ref="C?"  Part="1" 
@@ -214,7 +214,7 @@ F 5 "GRM187R60J226ME15D" H 2900 1600 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Themu-Main-rescue:GND-power #PWR?
 U 1 1 5F4C4C6A
 P 3200 1800
 AR Path="/5F4C4C6A" Ref="#PWR?"  Part="1" 
@@ -232,7 +232,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 1350 2550 1700
 $Comp
-L power:GND #PWR015
+L Themu-Main-rescue:GND-power #PWR015
 U 1 1 5F4BCFBC
 P 3550 3500
 F 0 "#PWR015" H 3550 3250 50  0001 C CNN
@@ -245,7 +245,7 @@ $EndComp
 Wire Wire Line
 	2450 3150 2450 3500
 $Comp
-L power:GND #PWR012
+L Themu-Main-rescue:GND-power #PWR012
 U 1 1 5F4B905D
 P 2450 3500
 F 0 "#PWR012" H 2450 3250 50  0001 C CNN
@@ -265,7 +265,7 @@ SDA
 Text HLabel 1050 2250 0    50   BiDi ~ 0
 SCL
 $Comp
-L power:+3V3 #PWR010
+L Themu-Main-rescue:+3V3-power #PWR010
 U 1 1 5F70FA0C
 P 1400 1550
 F 0 "#PWR010" H 1400 1400 50  0001 C CNN
@@ -276,7 +276,7 @@ F 3 "" H 1400 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR013
+L Themu-Main-rescue:+3V3-power #PWR013
 U 1 1 5F7115D8
 P 2550 1250
 F 0 "#PWR013" H 2550 1100 50  0001 C CNN
@@ -293,7 +293,7 @@ IMU - MPU6050\n
 Text Notes 5700 850  0    50   ~ 0
 Flex Sensors + Button
 $Comp
-L Device:C_Small C9
+L Themu-Main-rescue:C_Small-Device C9
 U 1 1 5F60116B
 P 6050 1900
 F 0 "C9" H 6150 1850 50  0000 L CNN
@@ -306,7 +306,7 @@ F 5 "GRM188R72A104KA35D" H 6050 1900 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L Themu-Main-rescue:GND-power #PWR031
 U 1 1 5F602BE7
 P 6050 2100
 F 0 "#PWR031" H 6050 1850 50  0001 C CNN
@@ -321,7 +321,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 1300 6050 1400
 $Comp
-L power:+3.3V #PWR030
+L Themu-Main-rescue:+3.3V-power #PWR030
 U 1 1 5F602632
 P 6050 1300
 F 0 "#PWR030" H 6050 1150 50  0001 C CNN
@@ -332,7 +332,7 @@ F 3 "" H 6050 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R11
+L Themu-Main-rescue:R_Small_US-Device R11
 U 1 1 5F600E2F
 P 6050 1500
 F 0 "R11" H 6118 1546 50  0000 L CNN
@@ -366,7 +366,7 @@ Wire Wire Line
 Text HLabel 4500 2600 0    50   Output ~ 0
 FLX1
 $Comp
-L Device:R_Small_US R15
+L Themu-Main-rescue:R_Small_US-Device R15
 U 1 1 5F7336DD
 P 5100 2450
 F 0 "R15" H 4950 2400 50  0000 C CNN
@@ -381,7 +381,7 @@ $EndComp
 Text HLabel 4500 2300 0    50   Output ~ 0
 FLX2
 $Comp
-L Device:R_Small_US R16
+L Themu-Main-rescue:R_Small_US-Device R16
 U 1 1 5F73D12E
 P 5000 2150
 F 0 "R16" H 4850 2100 50  0000 C CNN
@@ -396,7 +396,7 @@ $EndComp
 Text HLabel 4500 2000 0    50   Output ~ 0
 FLX3
 $Comp
-L Device:R_Small_US R17
+L Themu-Main-rescue:R_Small_US-Device R17
 U 1 1 5F743EE1
 P 4900 1850
 F 0 "R17" H 4750 1800 50  0000 C CNN
@@ -411,7 +411,7 @@ $EndComp
 Text HLabel 4500 1700 0    50   Output ~ 0
 FLX4
 $Comp
-L Device:R_Small_US R18
+L Themu-Main-rescue:R_Small_US-Device R18
 U 1 1 5F7464EA
 P 4800 1550
 F 0 "R18" H 4650 1500 50  0000 C CNN
@@ -426,7 +426,7 @@ $EndComp
 Text HLabel 4500 1400 0    50   Output ~ 0
 FLX5
 $Comp
-L Device:R_Small_US R19
+L Themu-Main-rescue:R_Small_US-Device R19
 U 1 1 5F748D84
 P 4700 1250
 F 0 "R19" H 4550 1200 50  0000 C CNN
@@ -439,7 +439,7 @@ F 5 "RN73R1JTTD4702B25" H 4700 1250 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C13
+L Themu-Main-rescue:C_Small-Device C13
 U 1 1 5F4BA235
 P 3550 3050
 F 0 "C13" H 3300 3100 50  0000 L CNN
@@ -468,7 +468,7 @@ FLEX5
 Text Label 6700 1700 2    50   ~ 0
 BUTTON
 $Comp
-L power:+3.3V #PWR05
+L Themu-Main-rescue:+3.3V-power #PWR05
 U 1 1 5F9E05D4
 P 5150 1150
 F 0 "#PWR05" H 5150 1000 50  0001 C CNN
@@ -536,7 +536,7 @@ Connection ~ 5100 2600
 Wire Wire Line
 	5100 2600 5400 2600
 $Comp
-L Device:R_Small_US R22
+L Themu-Main-rescue:R_Small_US-Device R22
 U 1 1 5FA0B3D0
 P 6250 1700
 F 0 "R22" V 6350 1600 50  0000 L CNN
@@ -582,7 +582,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 1400 7300 1400
 $Comp
-L power:GND #PWR0104
+L Themu-Main-rescue:GND-power #PWR0104
 U 1 1 5F90F590
 P 7200 2100
 F 0 "#PWR0104" H 7200 1850 50  0001 C CNN
@@ -593,7 +593,7 @@ F 3 "" H 7200 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J3
+L Themu-Main-rescue:Conn_01x08-Connector_Generic J3
 U 1 1 5F7E9F89
 P 7500 1700
 F 0 "J3" H 7580 1692 50  0000 L CNN

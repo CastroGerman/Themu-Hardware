@@ -18,7 +18,7 @@ NoConn ~ 2200 3350
 NoConn ~ 2200 3250
 NoConn ~ 2200 3150
 $Comp
-L power:GND #PWR?
+L Themu-Main-rescue:GND-power #PWR?
 U 1 1 5F4A137A
 P 2800 4350
 AR Path="/5F4A137A" Ref="#PWR?"  Part="1" 
@@ -34,7 +34,6 @@ NoConn ~ 3400 3350
 NoConn ~ 3400 3250
 NoConn ~ 3400 3150
 NoConn ~ 3400 3050
-NoConn ~ 3400 2950
 NoConn ~ 3400 2850
 NoConn ~ 3400 2650
 NoConn ~ 3400 2550
@@ -98,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 1100 9000 1000
 $Comp
-L Device:R_Small_US R?
+L Themu-Main-rescue:R_Small_US-Device R?
 U 1 1 5F4A13D6
 P 8500 2100
 AR Path="/5F4A13D6" Ref="R?"  Part="1" 
@@ -113,7 +112,7 @@ F 5 "RN73R1JTTD1002B25" H 8500 2100 50  0001 C CNN "*Arrow"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Themu-Main-rescue:R_Small_US-Device R?
 U 1 1 5F4A13DC
 P 8500 1300
 AR Path="/5F4A13DC" Ref="R?"  Part="1" 
@@ -128,7 +127,7 @@ F 5 "RN73R1JTTD1002B25" H 8500 1300 50  0001 C CNN "*Arrow"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NPN_EBC Q?
+L Themu-Main-rescue:Q_NPN_EBC-Device Q?
 U 1 1 5F4A13E2
 P 8900 2100
 AR Path="/5F4A13E2" Ref="Q?"  Part="1" 
@@ -143,7 +142,7 @@ F 5 "MMBT2222LT1G" H 8900 2100 50  0001 C CNN "*Arrow"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Q_NPN_EBC Q?
+L Themu-Main-rescue:Q_NPN_EBC-Device Q?
 U 1 1 5F4A13E8
 P 8900 1300
 AR Path="/5F4A13E8" Ref="Q?"  Part="1" 
@@ -163,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 1400 1100 1500
 $Comp
-L power:GND #PWR?
+L Themu-Main-rescue:GND-power #PWR?
 U 1 1 5F4A14A6
 P 1100 1700
 AR Path="/5F4A14A6" Ref="#PWR?"  Part="1" 
@@ -176,7 +175,7 @@ F 3 "" H 1100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Themu-Main-rescue:+3.3V-power #PWR?
 U 1 1 5F4A14AC
 P 1100 1200
 AR Path="/5F4A14AC" Ref="#PWR?"  Part="1" 
@@ -189,7 +188,7 @@ F 3 "" H 1100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Themu-Main-rescue:R_Small_US-Device R?
 U 1 1 5F4A14B2
 P 1100 1300
 AR Path="/5F4A14B2" Ref="R?"  Part="1" 
@@ -204,7 +203,7 @@ F 5 "RN73R1JTTD1002B25" H 1100 1300 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Themu-Main-rescue:C_Small-Device C?
 U 1 1 5F4A14B8
 P 1100 1600
 AR Path="/5F4A14B8" Ref="C?"  Part="1" 
@@ -230,7 +229,7 @@ Connection ~ 3450 1350
 Wire Wire Line
 	3000 1350 3450 1350
 $Comp
-L power:GND #PWR?
+L Themu-Main-rescue:GND-power #PWR?
 U 1 1 5F4A14C5
 P 3450 1350
 AR Path="/5F4A14C5" Ref="#PWR?"  Part="1" 
@@ -243,7 +242,7 @@ F 3 "" H 3450 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Themu-Main-rescue:C_Small-Device C?
 U 1 1 5F4A14CB
 P 3450 1250
 AR Path="/5F4A14CB" Ref="C?"  Part="1" 
@@ -258,7 +257,7 @@ F 5 "GRM187R60J226ME15D" H 3450 1250 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Themu-Main-rescue:C_Small-Device C?
 U 1 1 5F4A14D1
 P 3000 1250
 AR Path="/5F4A14D1" Ref="C?"  Part="1" 
@@ -273,7 +272,7 @@ F 5 "GRM188R72A104KA35D" H 3000 1250 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Themu-Main-rescue:+3.3V-power #PWR?
 U 1 1 5F4A14D7
 P 2800 1150
 AR Path="/5F4A14D7" Ref="#PWR?"  Part="1" 
@@ -285,16 +284,16 @@ F 3 "" H 2800 1150 50  0001 C CNN
 	1    2800 1150
 	1    0    0    -1  
 $EndComp
-Text HLabel 1950 2950 0    50   BiDi ~ 0
+Text HLabel 3650 2950 2    50   BiDi ~ 0
 SDA
-Text HLabel 1950 3050 0    50   BiDi ~ 0
+Text HLabel 3650 2750 2    50   BiDi ~ 0
 SCL
 Wire Wire Line
-	2200 2950 1950 2950
+	3400 2950 3650 2950
 Wire Wire Line
-	2200 3050 1950 3050
+	3400 2750 3650 2750
 $Comp
-L Interface_USB:CP2104 U1
+L Themu-Main-rescue:CP2104-Interface_USB U1
 U 1 1 5F606DE2
 P 6800 2200
 F 0 "U1" H 6800 1111 50  0000 C CNN
@@ -307,7 +306,7 @@ F 5 "CP2104-F03-GM (Quote)" H 6800 2200 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
+L Themu-Main-rescue:C_Small-Device C1
 U 1 1 5F62B7D9
 P 5350 1350
 F 0 "C1" H 5442 1396 50  0000 L CNN
@@ -320,7 +319,7 @@ F 5 "GRM188R72A104KA35D" H 5350 1350 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR02
+L Themu-Main-rescue:+3.3V-power #PWR02
 U 1 1 5F62C217
 P 5800 1150
 F 0 "#PWR02" H 5800 1000 50  0001 C CNN
@@ -349,7 +348,7 @@ Connection ~ 6050 1250
 Wire Wire Line
 	5800 1150 5800 1250
 $Comp
-L power:GND #PWR?
+L Themu-Main-rescue:GND-power #PWR?
 U 1 1 5F63677B
 P 6800 3450
 AR Path="/5F3C42AD/5F63677B" Ref="#PWR?"  Part="1" 
@@ -367,7 +366,7 @@ Wire Wire Line
 	6900 3200 6800 3200
 Connection ~ 6800 3200
 $Comp
-L Connector:USB_B_Micro J?
+L Themu-Main-rescue:USB_B_Micro-Connector J?
 U 1 1 5F4A152B
 P 4750 2800
 AR Path="/5F4A152B" Ref="J?"  Part="1" 
@@ -384,7 +383,7 @@ $EndComp
 Wire Wire Line
 	4650 3200 4750 3200
 $Comp
-L power:GND #PWR?
+L Themu-Main-rescue:GND-power #PWR?
 U 1 1 5F4A149C
 P 4750 3350
 AR Path="/5F4A149C" Ref="#PWR?"  Part="1" 
@@ -448,7 +447,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 2450 1100 2550
 $Comp
-L power:GND #PWR?
+L Themu-Main-rescue:GND-power #PWR?
 U 1 1 5F674CFE
 P 1100 2850
 AR Path="/5F674CFE" Ref="#PWR?"  Part="1" 
@@ -461,7 +460,7 @@ F 3 "" H 1100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Themu-Main-rescue:R_Small_US-Device R?
 U 1 1 5F674D0A
 P 1100 2350
 AR Path="/5F674D0A" Ref="R?"  Part="1" 
@@ -476,7 +475,7 @@ F 5 "RN73R1JTTD1003B50" H 1100 2350 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Themu-Main-rescue:R_Small_US-Device R?
 U 1 1 5F677550
 P 1100 2700
 AR Path="/5F677550" Ref="R?"  Part="1" 
@@ -496,7 +495,7 @@ Wire Wire Line
 	1100 2800 1100 2850
 Connection ~ 1100 2550
 $Comp
-L power:+BATT #PWR06
+L Themu-Main-rescue:+BATT-power #PWR06
 U 1 1 5F67B0FC
 P 1100 2250
 F 0 "#PWR06" H 1100 2100 50  0001 C CNN
@@ -511,7 +510,7 @@ EN
 Wire Wire Line
 	2200 1750 2100 1750
 $Comp
-L power:VBUS #PWR01
+L Themu-Main-rescue:VBUS-power #PWR01
 U 1 1 5F6AB1E8
 P 5100 2400
 F 0 "#PWR01" H 5100 2250 50  0001 C CNN
@@ -583,7 +582,7 @@ ADC1_CH4
 Wire Wire Line
 	3400 3750 3850 3750
 $Comp
-L RF_Module:ESP32-WROOM-32 U?
+L Themu-Main-rescue:ESP32-WROOM-32-RF_Module U?
 U 1 1 5F4A1531
 P 2800 2950
 AR Path="/5F4A1531" Ref="U?"  Part="1" 
@@ -620,11 +619,10 @@ Text HLabel 3850 3850 2    50   Input ~ 0
 FLX5
 Text HLabel 1750 2050 0    50   Input ~ 0
 FLX1
-NoConn ~ 3400 2750
 Text Label 1550 2550 2    50   ~ 0
 ADC1_CH0
 $Comp
-L Device:C_Small C14
+L Themu-Main-rescue:C_Small-Device C14
 U 1 1 5F7AA131
 P 5150 1600
 F 0 "C14" H 5242 1646 50  0000 L CNN
@@ -637,7 +635,7 @@ F 5 "GRM188R60J106KE47D" H 5150 1600 50  0001 C CNN "*Arrow"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR035
+L Themu-Main-rescue:GND-power #PWR035
 U 1 1 5F7AA137
 P 5150 1700
 F 0 "#PWR035" H 5150 1450 50  0001 C CNN
@@ -661,7 +659,7 @@ Wire Wire Line
 	5350 1700 5150 1700
 Connection ~ 5150 1700
 $Comp
-L Device:R_Small_US R3
+L Themu-Main-rescue:R_Small_US-Device R3
 U 1 1 5F857FC9
 P 1650 3650
 F 0 "R3" V 1550 3550 50  0000 C CNN
@@ -674,7 +672,7 @@ F 5 "RK73B1JTTDD561J" H 1650 3650 50  0001 C CNN "*Arrow"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R20
+L Themu-Main-rescue:R_Small_US-Device R20
 U 1 1 5F858D55
 P 1650 3850
 F 0 "R20" V 1550 3750 50  0000 C CNN
@@ -687,7 +685,7 @@ F 5 "RK73H1JTTD3740F" H 1650 3850 50  0001 C CNN "*Arrow"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R21
+L Themu-Main-rescue:R_Small_US-Device R21
 U 1 1 5F85AC5C
 P 1650 4050
 F 0 "R21" V 1550 3950 50  0000 C CNN
@@ -700,7 +698,7 @@ F 5 "RK73H1JTTD2320F" H 1650 4050 50  0001 C CNN "*Arrow"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Themu-Main-rescue:+3.3V-power #PWR?
 U 1 1 5F85EEE7
 P 1100 3350
 AR Path="/5F85EEE7" Ref="#PWR?"  Part="1" 
@@ -746,7 +744,7 @@ Wire Wire Line
 	3400 3650 3650 3650
 NoConn ~ 3400 2450
 $Comp
-L Device:LED_RABG D3
+L Themu-Main-rescue:LED_RABG-Device D3
 U 1 1 5FFE32BD
 P 1300 3850
 F 0 "D3" H 1300 3383 50  0000 C CNN
@@ -757,4 +755,6 @@ F 4 "QBLP655-RGB" H 1300 3850 50  0001 C CNN "*Arrow"
 	1    1300 3850
 	-1   0    0    1   
 $EndComp
+NoConn ~ 2200 2950
+NoConn ~ 2200 3050
 $EndSCHEMATC

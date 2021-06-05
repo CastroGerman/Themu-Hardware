@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Themu-Main-rescue_+3.3V-power
+# +3.3V-power
 #
-DEF Themu-Main-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Themu-Main-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_+3V3-power
+# +3V3-power
 #
-DEF Themu-Main-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+DEF +3V3-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Themu-Main-rescue_+3V3-power" 0 140 50 H V C CNN
+F1 "+3V3-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_+BATT-power
+# +BATT-power
 #
-DEF Themu-Main-rescue_+BATT-power #PWR 0 0 Y Y 1 F P
+DEF +BATT-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Themu-Main-rescue_+BATT-power" 0 140 50 H V C CNN
+F1 "+BATT-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_AP2112K-3.3-Regulator_Linear
+# AP2112K-3.3-Regulator_Linear
 #
-DEF Themu-Main-rescue_AP2112K-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AP2112K-3.3-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -200 225 50 H V L CNN
-F1 "Themu-Main-rescue_AP2112K-3.3-Regulator_Linear" 0 225 50 H V L CNN
+F1 "AP2112K-3.3-Regulator_Linear" 0 225 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -66,11 +66,11 @@ X VOUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_CP2104-Interface_USB
+# CP2104-Interface_USB
 #
-DEF Themu-Main-rescue_CP2104-Interface_USB U 0 40 Y Y 1 F N
+DEF CP2104-Interface_USB U 0 40 Y Y 1 F N
 F0 "U" -300 925 50 H V R CNN
-F1 "Themu-Main-rescue_CP2104-Interface_USB" -300 850 50 H V R CNN
+F1 "CP2104-Interface_USB" -300 850 50 H V R CNN
 F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 150 -950 50 H I L CNN
 F3 "" -550 1250 50 H I C CNN
 $FPLIST
@@ -106,11 +106,11 @@ X ~RST 9 700 -500 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF Themu-Main-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Themu-Main-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -124,11 +124,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_Conn_01x02-Connector_Generic
+# Conn_01x02-Connector_Generic
 #
-DEF Themu-Main-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Themu-Main-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -143,11 +143,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_Conn_01x08-Connector_Generic
+# Conn_01x08-Connector_Generic
 #
-DEF Themu-Main-rescue_Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Themu-Main-rescue_Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
+F1 "Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -174,11 +174,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_DMG2301L-Transistor_FET
+# DMG2301L-Transistor_FET
 #
-DEF Themu-Main-rescue_DMG2301L-Transistor_FET Q 0 20 Y N 1 F N
+DEF DMG2301L-Transistor_FET Q 0 20 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Themu-Main-rescue_DMG2301L-Transistor_FET" 200 0 50 H V L CNN
+F1 "DMG2301L-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -205,11 +205,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_ESP32-WROOM-32-RF_Module
+# ESP32-WROOM-32-RF_Module
 #
-DEF Themu-Main-rescue_ESP32-WROOM-32-RF_Module U 0 20 Y Y 1 F N
+DEF ESP32-WROOM-32-RF_Module U 0 20 Y Y 1 F N
 F0 "U" -500 1350 50 H V L CNN
-F1 "Themu-Main-rescue_ESP32-WROOM-32-RF_Module" 50 1350 50 H V L CNN
+F1 "ESP32-WROOM-32-RF_Module" 50 1350 50 H V L CNN
 F2 "RF_Module:ESP32-WROOM-32" 0 -1500 50 H I C CNN
 F3 "" -300 50 50 H I C CNN
 $FPLIST
@@ -259,11 +259,11 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_GND-power
+# GND-power
 #
-DEF Themu-Main-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Themu-Main-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -272,11 +272,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_LED_RABG-Device
+# LED_RABG-Device
 #
-DEF Themu-Main-rescue_LED_RABG-Device D 0 0 Y N 1 F N
+DEF LED_RABG-Device D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "Themu-Main-rescue_LED_RABG-Device" 0 -350 50 H V C CNN
+F1 "LED_RABG-Device" 0 -350 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -323,11 +323,11 @@ X GK 4 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_LED_Small_ALT-Device
+# LED_Small_ALT-Device
 #
-DEF Themu-Main-rescue_LED_Small_ALT-Device D 0 10 N N 1 F N
+DEF LED_Small_ALT-Device D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "Themu-Main-rescue_LED_Small_ALT-Device" -175 -100 50 H V L CNN
+F1 "LED_Small_ALT-Device" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -346,11 +346,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_MBR340-Diode
+# MBR340-Diode
 #
-DEF Themu-Main-rescue_MBR340-Diode D 0 40 N N 1 F N
+DEF MBR340-Diode D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Themu-Main-rescue_MBR340-Diode" 0 -100 50 H V C CNN
+F1 "MBR340-Diode" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -365,11 +365,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_MCP73831-2-OT-Battery_Management
+# MCP73831-2-OT-Battery_Management
 #
-DEF Themu-Main-rescue_MCP73831-2-OT-Battery_Management U 0 40 Y Y 1 F N
+DEF MCP73831-2-OT-Battery_Management U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "Themu-Main-rescue_MCP73831-2-OT-Battery_Management" 50 250 50 H V L CNN
+F1 "MCP73831-2-OT-Battery_Management" 50 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
 F3 "" -150 -50 50 H I C CNN
 $FPLIST
@@ -385,11 +385,11 @@ X PROG 5 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_MPU-6050-Sensor_Motion
+# MPU-6050-Sensor_Motion
 #
-DEF Themu-Main-rescue_MPU-6050-Sensor_Motion U 0 20 Y Y 1 F N
+DEF MPU-6050-Sensor_Motion U 0 20 Y Y 1 F N
 F0 "U" -450 550 50 H V C CNN
-F1 "Themu-Main-rescue_MPU-6050-Sensor_Motion" 300 -550 50 H V C CNN
+F1 "MPU-6050-Sensor_Motion" 300 -550 50 H V C CNN
 F2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" 0 -800 50 H I C CNN
 F3 "" 0 -150 50 H I C CNN
 $FPLIST
@@ -413,11 +413,11 @@ X AD0 9 -700 100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_PWR_FLAG-power
+# PWR_FLAG-power
 #
-DEF Themu-Main-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "Themu-Main-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -426,11 +426,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_Q_NPN_EBC-Device
+# Q_NPN_EBC-Device
 #
-DEF Themu-Main-rescue_Q_NPN_EBC-Device Q 0 0 Y N 1 F N
+DEF Q_NPN_EBC-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Themu-Main-rescue_Q_NPN_EBC-Device" 200 -50 50 H V L CNN
+F1 "Q_NPN_EBC-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -445,11 +445,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_R_Small_US-Device
+# R_Small_US-Device
 #
-DEF Themu-Main-rescue_R_Small_US-Device R 0 10 N N 1 F N
+DEF R_Small_US-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Themu-Main-rescue_R_Small_US-Device" 30 -40 50 H V L CNN
+F1 "R_Small_US-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -463,11 +463,11 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_USB_B_Micro-Connector
+# USB_B_Micro-Connector
 #
-DEF Themu-Main-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "Themu-Main-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -498,11 +498,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Themu-Main-rescue_VBUS-power
+# VBUS-power
 #
-DEF Themu-Main-rescue_VBUS-power #PWR 0 0 Y Y 1 F P
+DEF VBUS-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Themu-Main-rescue_VBUS-power" 0 150 50 H V C CNN
+F1 "VBUS-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
