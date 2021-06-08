@@ -743,18 +743,17 @@ Wire Wire Line
 Wire Wire Line
 	3400 3650 3650 3650
 NoConn ~ 3400 2450
+NoConn ~ 2200 2950
+NoConn ~ 2200 3050
 $Comp
-L Device:LED_RABG D3
-U 1 1 5FFE32BD
+L Device:LED_BARG D3
+U 1 1 60BEE694
 P 1300 3850
 F 0 "D3" H 1300 3383 50  0000 C CNN
-F 1 "LED_RABG" H 1300 3474 50  0000 C CNN
-F 2 "Main_Board:LED_QBLP655R_RGB" H 1300 3800 50  0001 C CNN
-F 3 "https://static6.arrow.com/aropdfconversion/2e9f9b5de02200d8efd894b12d78141ca956a5cd/qblp655-rgb.pdf" H 1300 3800 50  0001 C CNN
-F 4 "QBLP655-RGB" H 1300 3850 50  0001 C CNN "*Arrow"
+F 1 "LED_BARG" H 1300 3474 50  0000 C CNN
+F 2 "Main_Board:LED-160-80180" H 1300 3800 50  0001 C CNN
+F 3 "https://www.sycelectronica.com.ar/optoelectronica/LED-160-80180.pdf" H 1300 3800 50  0001 C CNN
 	1    1300 3850
 	-1   0    0    1   
 $EndComp
-NoConn ~ 2200 2950
-NoConn ~ 2200 3050
 $EndSCHEMATC
