@@ -34,7 +34,6 @@ NoConn ~ 3400 3350
 NoConn ~ 3400 3250
 NoConn ~ 3400 3150
 NoConn ~ 3400 3050
-NoConn ~ 3400 2950
 NoConn ~ 3400 2850
 NoConn ~ 3400 2650
 NoConn ~ 3400 2550
@@ -285,14 +284,14 @@ F 3 "" H 2800 1150 50  0001 C CNN
 	1    2800 1150
 	1    0    0    -1  
 $EndComp
-Text HLabel 1950 2950 0    50   BiDi ~ 0
+Text HLabel 3650 2950 2    50   BiDi ~ 0
 SDA
-Text HLabel 1950 3050 0    50   BiDi ~ 0
+Text HLabel 3650 2750 2    50   BiDi ~ 0
 SCL
 Wire Wire Line
-	2200 2950 1950 2950
+	3400 2950 3650 2950
 Wire Wire Line
-	2200 3050 1950 3050
+	3400 2750 3650 2750
 $Comp
 L Interface_USB:CP2104 U1
 U 1 1 5F606DE2
@@ -620,7 +619,6 @@ Text HLabel 3850 3850 2    50   Input ~ 0
 FLX5
 Text HLabel 1750 2050 0    50   Input ~ 0
 FLX1
-NoConn ~ 3400 2750
 Text Label 1550 2550 2    50   ~ 0
 ADC1_CH0
 $Comp
@@ -745,15 +743,16 @@ Wire Wire Line
 Wire Wire Line
 	3400 3650 3650 3650
 NoConn ~ 3400 2450
+NoConn ~ 2200 2950
+NoConn ~ 2200 3050
 $Comp
-L Device:LED_RABG D3
-U 1 1 5FFE32BD
+L Device:LED_BARG D3
+U 1 1 60BEE694
 P 1300 3850
 F 0 "D3" H 1300 3383 50  0000 C CNN
-F 1 "LED_RABG" H 1300 3474 50  0000 C CNN
-F 2 "Main_Board:LED_QBLP655R_RGB" H 1300 3800 50  0001 C CNN
-F 3 "https://static6.arrow.com/aropdfconversion/2e9f9b5de02200d8efd894b12d78141ca956a5cd/qblp655-rgb.pdf" H 1300 3800 50  0001 C CNN
-F 4 "QBLP655-RGB" H 1300 3850 50  0001 C CNN "*Arrow"
+F 1 "LED_BARG" H 1300 3474 50  0000 C CNN
+F 2 "Main_Board:LED-160-80180" H 1300 3800 50  0001 C CNN
+F 3 "https://www.sycelectronica.com.ar/optoelectronica/LED-160-80180.pdf" H 1300 3800 50  0001 C CNN
 	1    1300 3850
 	-1   0    0    1   
 $EndComp

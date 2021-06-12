@@ -1,4 +1,4 @@
-update=14-Jan-21 08:55:05
+update=6/7/2021 22:31:44
 version=1
 last_client=kicad
 [general]
@@ -57,7 +57,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -249,7 +249,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=empty.kicad_wks
+PageLayoutDescrFile=
 PlotDirectoryName=Plots/
 SubpartIdSeparator=0
 SubpartFirstId=65
